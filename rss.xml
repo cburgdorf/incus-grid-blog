@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>IncusGrid Blog</title>
+      <link>https://blog.incusgrid.com</link>
+      <description>Updates, tutorials and insights about lightning protection and the IncusGrid platform</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Sailing the Adriatic: A seasonal analysis of lightning patterns</title>
+          <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/exploring-lightning-patterns-in-the-adriatic-sea/</link>
+          <guid>https://blog.incusgrid.com/blog/exploring-lightning-patterns-in-the-adriatic-sea/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/exploring-lightning-patterns-in-the-adriatic-sea/">&lt;p&gt;The Adriatic Sea is a dream destination for sailors with stunning coastlines, historic towns, and clear water. However, anyone who has spent a summer in Croatia knows the other side of the coin: Sudden, violent thunderstorms (Neverins) are a real threat.&lt;&#x2F;p&gt;
+&lt;p&gt;After a lightning strike hit right next to our boat in Greece, we built &lt;strong&gt;IncusGrid&lt;&#x2F;strong&gt; to stop guessing and start analyzing. We processed billions of historical data points combined with terrain topography to understand where the real risks lie.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is what the data tells us about the lightning season in the Adriatic.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-season-begins-june&quot;&gt;The Season Begins: June&lt;&#x2F;h3&gt;
+&lt;p&gt;While May and early June are generally considered safe, lightning activity starts to pick up by the end of June. Interestingly, this is mostly confined to the Northern Adriatic (Gulf of Trieste), while the south remains relatively calm.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;june.png&quot; alt=&quot;Lightning activity in June&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;Lightning activity in June&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;the-peak-july-local-variations&quot;&gt;The Peak: July &amp;amp; Local Variations&lt;&#x2F;h3&gt;
+&lt;p&gt;By July, the heat is on. The Gulf of Trieste turns purple on our heatmap. But look closer at the Croatian coast: There are notable local variations.&lt;&#x2F;p&gt;
+&lt;p&gt;The regions around &lt;strong&gt;Senj, Novalja, and Split&lt;&#x2F;strong&gt; show significantly higher lightning density compared to the relatively calmer areas around &lt;strong&gt;Zadar and Šibenik&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Pro Tip:&lt;&#x2F;strong&gt; If you seek calm nights in July, the data suggests the Zadar archipelago might be a statistically safer bet than the bustling (and electric) region around Split.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;july.png&quot; alt=&quot;Lightning activity in July&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;Lightning activity in July&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;the-contrast-the-ionian-sea&quot;&gt;The Contrast: The Ionian Sea&lt;&#x2F;h3&gt;
+&lt;p&gt;It is also interesting to zoom out. While the Northern Adriatic cooks, the Ionian Sea (south of Albania) remains surprisingly calm during July, making it a potentially safer alternative for those looking to avoid the peak thunderstorm season.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;july_ionian.png&quot; alt=&quot;Further south in the Ionian Sea: Barely any lightning activity in July&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;Further south in the Ionian Sea: Barely any lightning activity in July&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;high-season-august&quot;&gt;High Season: August&lt;&#x2F;h3&gt;
+&lt;p&gt;In August, the picture intensifies. The hotspot moves south. We see a new high-activity zone emerging from Makarska down to Zaljev Budima.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;august.png&quot; alt=&quot;Lightning activity in August&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;Lightning activity in August&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;finding-safety-the-power-of-terrain-shielding&quot;&gt;Finding Safety: The Power of Terrain Shielding&lt;&#x2F;h3&gt;
+&lt;p&gt;This is where route planning becomes crucial. Even in active zones, terrain matters.&lt;&#x2F;p&gt;
+&lt;p&gt;Look at the islands of Lopud and Koločep near Dubrovnik. Using the &lt;strong&gt;IncusGrid Exposure Layer&lt;&#x2F;strong&gt;, we can identify the bay of &lt;strong&gt;Uvala Sunj&lt;&#x2F;strong&gt; as a statistically safer anchorage.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;exposure_safe_spot.png&quot; alt=&quot;Uvala Sunj: A statistically safer anchorage in August&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;Uvala Sunj: A statistically safer anchorage in August&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;strong&gt;Why?&lt;&#x2F;strong&gt; The brighter coloring in IncusGrid indicates strong &lt;strong&gt;terrain shielding&lt;&#x2F;strong&gt;. The steep hills surrounding the bay provide a theoretical &quot;shadow zone&quot; against lightning strikes, offering significantly better protection compared to bays with flat terrain.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;late-season-the-flip-september-november&quot;&gt;Late Season: The Flip (September - November)&lt;&#x2F;h3&gt;
+&lt;p&gt;As autumn approaches, the Ionian Sea wakes up. Activity increases around Corfu and Zakynthos.&lt;&#x2F;p&gt;
+&lt;p&gt;By October and November, the pattern completely flips: The Adriatic becomes calm again, while the heavy lightning activity shifts south to Albania and Greece.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;november.png&quot; alt=&quot;November: The lightning activity shifts south&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;November: The lightning activity shifts south&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;plan-your-own-route&quot;&gt;Plan your own route&lt;&#x2F;h3&gt;
+&lt;p&gt;These are general seasonal trends, but every region is different.&lt;&#x2F;p&gt;
+&lt;p&gt;Are you planning a charter or a cruise in the Adriatic? Don&#x27;t rely on luck. Check your specific anchorages on &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;incusgrid.com&quot;&gt;IncusGrid&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; to see if you are dropping your hook in a safe zone or a lightning magnet.&lt;&#x2F;p&gt;
+&lt;p&gt;Stay safe and fair winds! ⛵️⚡️&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Why We Built IncusGrid: From Lightning Strike to Safety Tool</title>
+          <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/introducing-incusgrid/</link>
+          <guid>https://blog.incusgrid.com/blog/introducing-incusgrid/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/introducing-incusgrid/">&lt;p&gt;Last October, our family was sailing the Ionian Sea when we sheltered in the bay of Igoumenitsa, Greece, to avoid an approaching storm. While we were very protected from the wind and waves, we experienced a lightning strike right next to our boat. It damaged our electronics and left us shaken.&lt;&#x2F;p&gt;
+&lt;p&gt;Ever since, we&#x27;ve asked ourselves: What are our chances of being struck by lightning at this location? Would we be safer on the east side of the bay or on the west side? How much does the surrounding terrain protect us from lightning strikes?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-is-incusgrid&quot;&gt;What is IncusGrid?&lt;&#x2F;h2&gt;
+&lt;p&gt;Weather apps predict when a lightning storm is approaching. IncusGrid combines &lt;em&gt;historical data&lt;&#x2F;em&gt; with &lt;em&gt;local terrain features&lt;&#x2F;em&gt; to show you where you are statistically safest from lightning strikes.&lt;&#x2F;p&gt;
+&lt;p&gt;Lightning strikes are chaotic and cannot be predicted with certainty. The lightning strike that hit the water next to our boat could have just as well hit our boat directly. Just like wearing a seatbelt doesn&#x27;t guarantee survival but significantly improves your odds, choosing the right anchorage can reduce your lightning risk.&lt;&#x2F;p&gt;
+&lt;p&gt;This might mean avoiding a specific region during a specific time of the year or choosing the side of a bay that is better protected by surrounding terrain. IncusGrid helps you make these decisions based on data.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;topography-analysis&quot;&gt;Topography analysis&lt;&#x2F;h3&gt;
+&lt;p&gt;When high buildings or technical facilities are built, a so-called &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;axis-india.com&#x2F;rolling-sphere-method&#x2F;&quot;&gt;rolling sphere method&lt;&#x2F;a&gt; is often used to determine which parts of the building need additional lightning protection. Applying this method identifies areas that are naturally protected by surrounding terrain features.&lt;&#x2F;p&gt;
+&lt;p&gt;IncusGrid applies a similar analysis to calculate how well terrain features protect different locations from lightning strikes.&lt;&#x2F;p&gt;
+&lt;p&gt;We expose this analysis through our &quot;Exposure&quot; layer, which already covers most parts of the world.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;exposure.webp&quot; alt=&quot;The exposure layer shows that the right side of the bay is better protected by surrounding terrain features.&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;The exposure layer shows that the right side of the bay is better protected by surrounding terrain features.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;historical-lightning-patterns&quot;&gt;Historical lightning patterns&lt;&#x2F;h3&gt;
+&lt;p&gt;In addition to terrain shielding, IncusGrid analyzes billions of historical lightning strikes captured by satellites over recent years. Our &quot;Activity&quot; layer shows the average lightning strikes per square kilometer for any given month or over the entire year. This layer helps identify how lightning activity varies throughout the year and across different regions.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;activity.webp&quot; alt=&quot;The activity layer shows a heatmap of average lightning strikes per square kilometer per month or over the entire year.&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  
+  &lt;figcaption&gt;The activity layer shows a heatmap of average lightning strikes per square kilometer per month or over the entire year.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;more-to-come&quot;&gt;More to come&lt;&#x2F;h2&gt;
+&lt;p&gt;IncusGrid is continuously evolving. We are working on integrating more satellite data sources to improve coverage and accuracy. We are also developing new features that visualize fascinating lightning data that traditional weather apps do not provide.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking back at that night in Igoumenitsa, IncusGrid now shows us that the southern shore would have offered better terrain shielding. We can&#x27;t change the past, but we can make better decisions in the future.&lt;&#x2F;p&gt;
+&lt;p&gt;Ready to explore lightning patterns in your cruising area? &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&quot;&gt;Open IncusGrid&lt;&#x2F;a&gt; and see for yourself.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
