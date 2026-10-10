@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>IncusGrid Blog</title>
+      <link>https://blog.incusgrid.com</link>
+      <description>Updates, tutorials and insights about lightning protection and the IncusGrid platform</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Two seas, two clocks: How the time of day changes sailing in Greece</title>
+          <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/two-seas-two-clocks-wind-by-time-of-day-in-greece/</link>
+          <guid>https://blog.incusgrid.com/blog/two-seas-two-clocks-wind-by-time-of-day-in-greece/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/two-seas-two-clocks-wind-by-time-of-day-in-greece/">&lt;p&gt;Ask ten sailors about Greece in July and you will hear two very different stories. One group talks about lazy mornings, a reliable afternoon breeze and glassy anchorages at night. The other group talks about the Meltemi: 20 knots from the north, the rigging howling all night and a crew checking the anchor at 3 am.&lt;&#x2F;p&gt;
+&lt;p&gt;Both groups are right. They just sailed on different seas. And the difference isn&#x27;t only &lt;em&gt;how much&lt;&#x2F;em&gt; wind there is. It&#x27;s &lt;em&gt;when&lt;&#x2F;em&gt; it blows.&lt;&#x2F;p&gt;
+&lt;p&gt;IncusGrid&#x27;s wind layers can now be split by &lt;strong&gt;time of day&lt;&#x2F;strong&gt;: Morning (06–10), Midday (10–14), Afternoon (14–18), Evening (18–22) and Night (22–06), always in local clock time. We also added &lt;strong&gt;Mean speed&lt;&#x2F;strong&gt;, &lt;strong&gt;Steadiness&lt;&#x2F;strong&gt; and &lt;strong&gt;Quiet nights&lt;&#x2F;strong&gt;. The data comes from a weather model at roughly 9 km resolution, hourly from 2017 to 2025.&lt;&#x2F;p&gt;
+&lt;p&gt;We clicked through July in Greece. Here&#x27;s what we found.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-afternoon-picture&quot;&gt;The afternoon picture&lt;&#x2F;h3&gt;
+&lt;p&gt;Start with the classic view: mean wind speed in July, afternoon hours.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;aegean_ionian_afternoon.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;aegean_ionian_afternoon.webp&quot; alt=&quot;Mean wind speed in July, afternoon (14–18). The Aegean glows purple, the Ionian stays pale.&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Mean wind speed in July, afternoon (14–18). The Aegean glows purple, the Ionian stays pale.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Nothing surprising so far. The Aegean is the windy one, with a band of 14+ knots running from the Dardanelles down through the Cyclades to Crete. The Ionian side, west of mainland Greece, looks gentle by comparison.&lt;&#x2F;p&gt;
+&lt;p&gt;But an afternoon map hides half the story. Let&#x27;s change the clock.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-ionian-a-sea-that-wakes-up-at-lunchtime&quot;&gt;The Ionian: a sea that wakes up at lunchtime&lt;&#x2F;h3&gt;
+&lt;p&gt;Zoom in on &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6253640138358784&quot;&gt;Lefkada&lt;&#x2F;a&gt;, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5707781946474496&quot;&gt;Meganisi&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5325319347109888&quot;&gt;Kefalonia&lt;&#x2F;a&gt; and switch between &lt;strong&gt;Morning&lt;&#x2F;strong&gt; and &lt;strong&gt;Afternoon&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;ionian_morning.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;ionian_morning.webp&quot; alt=&quot;Ionian Sea, July mornings (06–10): barely any wind around Lefkada and Meganisi&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Ionian Sea, July mornings (06–10): barely any wind around Lefkada and Meganisi&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;ionian_afternoon.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;ionian_afternoon.webp&quot; alt=&quot;Same area, July afternoons (14–18): the channels between the islands light up&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Same area, July afternoons (14–18): the channels between the islands light up&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;In the channel south of Meganisi, the average July morning brings &lt;strong&gt;4 knots&lt;&#x2F;strong&gt;. By the afternoon it&#x27;s &lt;strong&gt;10.7 knots&lt;&#x2F;strong&gt;, most often from the west. This is the well-known &lt;em&gt;Maistros&lt;&#x2F;em&gt;, a thermal breeze that builds as the land heats up and fades in the evening. Averaged over the whole Ionian between Lefkada and Zakynthos, wind speed climbs from about 6 knots in the morning to nearly 10 knots in the late afternoon and evening.&lt;&#x2F;p&gt;
+&lt;p&gt;This isn&#x27;t just a model result. The airport weather station at &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6687513456410624&quot;&gt;Preveza&lt;&#x2F;a&gt;&#x2F;Aktion, just north of Lefkada, measured the same rhythm in July 2017–2025: about &lt;strong&gt;4 knots in the morning and 12 knots in the afternoon&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;ionian_afternoon_point.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;ionian_afternoon_point.webp&quot; alt=&quot;Tap any point to see its 12-month profile and the most frequent wind direction&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Tap any point to see its 12-month profile and the most frequent wind direction&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;strong&gt;What this means for planning:&lt;&#x2F;strong&gt; Motor or ghost along in the morning, sail in the afternoon, and have the anchor down before dinner. That&#x27;s not folklore. It&#x27;s what nine years of hourly data say.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-aegean-a-sea-without-a-clock&quot;&gt;The Aegean: a sea without a clock&lt;&#x2F;h3&gt;
+&lt;p&gt;Now do the same in the Cyclades. Morning, midday, afternoon, evening, night: in the open water between &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5780584515239936&quot;&gt;Syros&lt;&#x2F;a&gt;, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;4998663596146688&quot;&gt;Mykonos&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5366205768531968&quot;&gt;Paros&lt;&#x2F;a&gt; the map barely changes. Averaged over the Cyclades in July, mean wind speed is &lt;strong&gt;13.6 knots in the morning, 14.0 in the afternoon and 13.2 at night&lt;&#x2F;strong&gt;. That&#x27;s a difference of less than one knot around the clock.&lt;&#x2F;p&gt;
+&lt;p&gt;The Meltemi isn&#x27;t a sea breeze. It&#x27;s driven by the large-scale pressure difference between the Balkans and the heat low over Turkey and the Middle East, and that doesn&#x27;t switch off when the sun goes down.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;cyclades_night.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;cyclades_night.webp&quot; alt=&quot;July nights (22–06) east of Syros: still 13.5 knots on average, from the north more than 60% of the time&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;July nights (22–06) east of Syros: still 13.5 knots on average, from the north more than 60% of the time&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;At midnight east of Syros the average is still &lt;strong&gt;13.5 knots&lt;&#x2F;strong&gt;, the same as at 3 pm.&lt;&#x2F;p&gt;
+&lt;p&gt;One caveat matters for anyone at anchor: this flat profile holds on &lt;strong&gt;open water&lt;&#x2F;strong&gt;. Close to the islands, the land does put a small daily rhythm on top. The weather station at Mykonos airport measured about 17 knots on July afternoons and 11 knots at night. So the wind eases a little in a bay at night, but it rarely goes to sleep.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;quiet-nights-where-the-wind-sleeps&quot;&gt;Quiet nights: where the wind sleeps&lt;&#x2F;h3&gt;
+&lt;p&gt;For anyone at anchor, the more useful question is: &lt;em&gt;How likely is a calm night?&lt;&#x2F;em&gt; That&#x27;s what the new &lt;strong&gt;Quiet nights&lt;&#x2F;strong&gt; layer shows: the share of nights in which the wind stays &lt;strong&gt;below 10 knots from 22:00 to 06:00 the whole time&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;quiet_nights_july.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;quiet_nights_july.webp&quot; alt=&quot;Quiet nights in July. The pale corridor down the middle of the Aegean is Meltemi country.&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Quiet nights in July. The pale corridor down the middle of the Aegean is Meltemi country.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;This is the map that best captures the two stories. A pale corridor runs straight down the Aegean, where quiet nights are rare. Almost everything else is purple: the Ionian, the Gulf of Corinth, the Saronic Gulf, the Gulf of Volos and many sheltered pockets in the lee of larger islands.&lt;&#x2F;p&gt;
+&lt;p&gt;Tap two points and the contrast becomes concrete:&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;quiet_nights_syros.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;quiet_nights_syros.webp&quot; alt=&quot;East of Syros: only 17% quiet nights in July. The best month for calm nights is May.&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;East of Syros: only 17% quiet nights in July. The best month for calm nights is May.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;quiet_nights_meganisi.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;quiet_nights_meganisi.webp&quot; alt=&quot;Meganisi channel: 88% quiet nights in July&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Meganisi channel: 88% quiet nights in July&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;In July, about &lt;strong&gt;17%&lt;&#x2F;strong&gt; of nights east of Syros are quiet. In the Meganisi channel the model shows &lt;strong&gt;88%&lt;&#x2F;strong&gt;. Treat that as &quot;most nights&quot; rather than an exact figure: the nearest weather station at Preveza measured about three quiet nights in four, while the stations on Mykonos, Syros and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6377519404023808&quot;&gt;Santorini&lt;&#x2F;a&gt; measured only one in four. Over the regions as a whole, the Cyclades average &lt;strong&gt;19%&lt;&#x2F;strong&gt;, the Ionian &lt;strong&gt;62%&lt;&#x2F;strong&gt; and the Saronic Gulf, right on Athens&#x27; doorstep, &lt;strong&gt;74%&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The monthly bars tell you something else too: in the Cyclades, quiet nights peak in &lt;strong&gt;May&lt;&#x2F;strong&gt; (about 38% on average across the islands, twice the July value). If you want the Cyclades with fewer windy nights at anchor, go early.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;steadiness-the-meltemi-as-a-conveyor-belt&quot;&gt;Steadiness: the Meltemi as a conveyor belt&lt;&#x2F;h3&gt;
+&lt;p&gt;The &lt;strong&gt;Steadiness&lt;&#x2F;strong&gt; layer shows how consistently the wind keeps one direction, with arrows pointing where it blows to.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;steadiness_july.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;steadiness_july.webp&quot; alt=&quot;Steadiness in July: the Aegean is deep purple, with arrows all pointing south to south-southwest&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Steadiness in July: the Aegean is deep purple, with arrows all pointing south to south-southwest&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;In July the Cyclades score &lt;strong&gt;87 out of 100&lt;&#x2F;strong&gt;. The arrows form a near-perfect conveyor belt toward the south-southwest. That&#x27;s great news for a passage from Mykonos to Santorini and hard work for the reverse trip. In May the same area scores only 49: winds are lighter and far more variable.&lt;&#x2F;p&gt;
+&lt;p&gt;The Ionian sits at 70: a fairly steady direction, but much less strength.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;a-surprise-in-the-north-aegean&quot;&gt;A surprise in the North Aegean&lt;&#x2F;h3&gt;
+&lt;p&gt;We expected the North Aegean to behave like the Cyclades. It doesn&#x27;t. On the open water between &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6386814474518528&quot;&gt;Lemnos&lt;&#x2F;a&gt; and the Dardanelles, July mornings are the &lt;em&gt;windiest&lt;&#x2F;em&gt; part of the day and the afternoon is the calmest.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;north_aegean_morning.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;north_aegean_morning.webp&quot; alt=&quot;North Aegean, July mornings: strong winds between Lemnos, Samothraki and the Dardanelles&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;North Aegean, July mornings: strong winds between Lemnos, Samothraki and the Dardanelles&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;north_aegean_afternoon.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-time-of-day&amp;#x2F;north_aegean_afternoon.webp&quot; alt=&quot;Same area in the afternoon: noticeably lighter in the north&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Same area in the afternoon: noticeably lighter in the north&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;At one point east of Lemnos the average drops from &lt;strong&gt;14.2 knots in the morning to 8.5 knots in the afternoon&lt;&#x2F;strong&gt;, then picks up again overnight. That&#x27;s the opposite of the Ionian rhythm.&lt;&#x2F;p&gt;
+&lt;p&gt;This one deserves a note of caution. A second, independent model shows the same pattern at the same spot (13.4 knots in the morning, 8.1 in the afternoon). But there is no weather station out there to confirm it, and the station at Lemnos airport, on land, shows the usual afternoon peak. So this looks like an open-water effect that fades near the coast. We won&#x27;t pretend to have the full meteorological explanation. For planning, the takeaway is simple: on a North Aegean crossing, the &quot;wait for the morning calm&quot; rule can backfire.&lt;&#x2F;p&gt;
+&lt;p&gt;The Dodecanese, by contrast, follows the Ionian pattern on top of the Meltemi: around &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5306544837099520&quot;&gt;Kos&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5994618999013376&quot;&gt;Kalymnos&lt;&#x2F;a&gt; wind builds from about 11 knots in the morning to 14 knots in the evening.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;how-we-checked&quot;&gt;How we checked&lt;&#x2F;h3&gt;
+&lt;p&gt;Model maps are only useful if they match reality, so we compared them with what was actually measured. For July 2017–2025 we pulled the hourly reports from 14 airport weather stations around the Aegean and the Ionian and compared them with the IncusGrid values at the same locations. For the open-water points, we also compared against a second, coarser weather model.&lt;&#x2F;p&gt;
+&lt;p&gt;The daily rhythm at Preveza, the round-the-clock wind at Mykonos, Syros and Santorini, and the contrast in quiet nights all show up in the measurements.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-we-take-away&quot;&gt;What we take away&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ionian:&lt;&#x2F;strong&gt; a daily rhythm. Calm mornings, a west-to-northwest afternoon breeze and mostly quiet nights. Ideal for relaxed cruising and families.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Cyclades:&lt;&#x2F;strong&gt; no real rhythm on open water in July. The Meltemi blows morning to night from the north. In anchorages it eases a little at night, but quiet nights stay rare. Plan your anchorages for north wind, every night.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;North Aegean:&lt;&#x2F;strong&gt; on open water, a reversed rhythm. Mornings can be the roughest part of the day.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Shoulder season:&lt;&#x2F;strong&gt; in May the Cyclades offer twice as many quiet nights as in July.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;All of these are long-term averages, not forecasts. A single July day in the Ionian can still blow 25 knots, and the Cyclades do get calm spells. But knowing the typical rhythm of a sea helps you choose where to go, when to leave and where to spend the night.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;try-it-yourself&quot;&gt;Try it yourself&lt;&#x2F;h3&gt;
+&lt;p&gt;The time-of-day layers, Steadiness and Quiet nights are available now on &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&quot;&gt;IncusGrid&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;. Select &quot;Wind&quot;, pick a time of day and a month, then tap anywhere on the map for that point&#x27;s 12-month profile. We&#x27;d love to hear which patterns you find in your own sailing area.&lt;&#x2F;p&gt;
+&lt;p&gt;Fair winds! ⛵️💨&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Sailing routes: collective sailing experience, made explorable</title>
+          <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/collective-sailing-experience/</link>
+          <guid>https://blog.incusgrid.com/blog/collective-sailing-experience/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/collective-sailing-experience/">&lt;p&gt;Where do other sailors cross from Sicily to Greece? Which connections do they use between the islands of the Aegean? And how does the traffic change through the year?&lt;&#x2F;p&gt;
+&lt;p&gt;These are the questions we keep asking when we plan our own sailing. A chart shows the geography. A forecast helps us choose a weather window. But there is another useful piece of the picture: the journeys other sailors have actually made.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Sailing Routes brings that collective experience to IncusGrid.&lt;&#x2F;strong&gt; Built from thousands of real recorded boat movements, the layer lets you explore which connections sailors use, how often those connections appear in the data, and when activity tends to peak.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;sicily-to-greece.png&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;sicily-to-greece.png&quot; alt=&quot;IncusGrid map showing Sicily to the Ionian Islands, with a seasonal chart comparing both directions&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;One crossing, two seasonal patterns: Sicily and the Ionian Islands.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;which-route-as-well-as-when&quot;&gt;Which route, as well as when&lt;&#x2F;h2&gt;
+&lt;p&gt;Ask a sailor why they chose a particular passage and the answer rarely comes down to distance alone. Wind direction matters. So does the shape of the coast, the next useful stop, or the prospect of a sheltered arrival after a long crossing.&lt;&#x2F;p&gt;
+&lt;p&gt;Those choices can leave patterns in the journeys people record. Popular connections offer a starting point for exploring the accumulated experience behind them.&lt;&#x2F;p&gt;
+&lt;p&gt;If you have spent time with a book of ocean passages or world cruising routes, the idea will feel familiar. We wanted to make that curiosity interactive: move around the map, look at the connections, and compare the seasons for yourself.&lt;&#x2F;p&gt;
+&lt;p&gt;The data cannot tell us why each skipper made a decision. A busy route is an invitation to investigate, rather than proof that it suits every boat or set of conditions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sicily-to-greece-in-spring-the-other-direction-in-autumn&quot;&gt;Sicily to Greece in spring. The other direction in autumn.&lt;&#x2F;h2&gt;
+&lt;p&gt;One of our favourite examples is the connection between &lt;strong&gt;Sicily and the Ionian Islands&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Select the eastbound route and the seasonal chart shows activity rising in spring and early summer. Switch direction and the westbound pattern peaks in autumn. The contrast is much more useful than a single annual total: the same stretch of water tells a different story depending on which way you are going.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;greece-to-sicily-seasonality.png&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;greece-to-sicily-seasonality.png&quot; alt=&quot;Route detail for the Ionian Islands to Sicily showing an autumn peak and the opposite direction for comparison&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Switch direction to compare the westbound autumn peak with the eastbound spring pattern.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;These are patterns across recorded journeys; they do not establish that the same boats made a round trip. Months are grouped by the first recorded arrival at the destination, which matters especially for longer passages that span two months.&lt;&#x2F;p&gt;
+&lt;p&gt;Sicily and Greece are just one example. You can explore ocean passages, regional crossings and shorter coastal connections in the same map.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;popular-passages-and-less-travelled-connections&quot;&gt;Popular passages and less-travelled connections&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;strong&gt;Route popularity&lt;&#x2F;strong&gt; slider lets you choose how much detail to explore.&lt;&#x2F;p&gt;
+&lt;p&gt;Move it towards &lt;strong&gt;Only more popular&lt;&#x2F;strong&gt; to focus on connections supported by more boats. Move it towards &lt;strong&gt;Include less popular&lt;&#x2F;strong&gt; to reveal more of the quieter connections. Zoom in to explore shorter routes around a cruising area.&lt;&#x2F;p&gt;
+&lt;p&gt;In the Aegean, this changes the question from “How do people get across this sea?” to “Which connections do people use around these islands?” It makes the feature useful for the next part of a coastal cruise as well as a longer passage.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;aegean-routes.png&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;aegean-routes.png&quot; alt=&quot;Sailing-route connections throughout the Aegean with the popularity filter set to show more local detail&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Explore the Aegean at a closer scale and adjust popularity to reveal more connections.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The filter controls what is visible; it does not rank routes by safety or difficulty. Less-recorded routes may simply be less represented in the source data.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;follow-your-curiosity-beyond-familiar-waters&quot;&gt;Follow your curiosity beyond familiar waters&lt;&#x2F;h2&gt;
+&lt;p&gt;Some of the most exciting discoveries start with a place you had never thought to look. Follow recorded connections along Alaska’s coast near the &lt;strong&gt;Bering Strait&lt;&#x2F;strong&gt;, explore the passage from &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5969783663099904&quot;&gt;Pitcairn&lt;&#x2F;a&gt; to the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6503110262390784&quot;&gt;Gambier Islands&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; in the South Pacific, or trace the link between the &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6755338971808804&quot;&gt;Cocos (Keeling) Islands&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6755338971811419&quot;&gt;Rodrigues&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; across the Indian Ocean. These are all connections you can find in IncusGrid, built from real recorded boat movements.&lt;&#x2F;p&gt;
+&lt;p&gt;Zooming out puts those tiny islands in perspective. Zooming back in reveals the journeys connecting them, and suddenly a remote speck on the map becomes a place to explore. Even if your next passage is closer to home, there is something exciting about discovering where other sailors have been.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;cocos-rodrigues-world.png&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;sailing-routes&amp;#x2F;cocos-rodrigues-world.png&quot; alt=&quot;World overview locating the Cocos (Keeling) Islands and Rodrigues in the Indian Ocean, with an embedded IncusGrid screenshot of the connection and its seasonal popularity&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Small islands, a whole ocean to explore: locate Cocos and Rodrigues on the world map, then explore their recorded connection in IncusGrid.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;?route=regional-4665b784247639&quot;&gt;Explore Cocos → Rodrigues in IncusGrid →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;try-a-route-you-know&quot;&gt;Try a route you know&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open IncusGrid and select &lt;strong&gt;Sailing Routes&lt;&#x2F;strong&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Start with &lt;strong&gt;Year&lt;&#x2F;strong&gt; to explore the connections in an area you know.&lt;&#x2F;li&gt;
+&lt;li&gt;Adjust &lt;strong&gt;Route popularity&lt;&#x2F;strong&gt; until you have a useful amount of detail.&lt;&#x2F;li&gt;
+&lt;li&gt;Select a connection to inspect its seasonal pattern. Where a counterpart is available, use &lt;strong&gt;Switch direction&lt;&#x2F;strong&gt; to compare it.&lt;&#x2F;li&gt;
+&lt;li&gt;Choose a month on the timeline, or use &lt;strong&gt;Share&lt;&#x2F;strong&gt; to send someone a link to the connection you are exploring.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The lines are schematic connections reconstructed from recorded position reports, not exact navigational tracks. Use them to discover patterns, then bring charts, forecasts and your own passage planning to the decision.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Collective sailing experience. Made explorable.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;&quot;&gt;Explore Sailing Routes in IncusGrid →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>More context for your next passage: waves, lightning and 19 languages</title>
+          <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/more-context-for-your-next-passage/</link>
+          <guid>https://blog.incusgrid.com/blog/more-context-for-your-next-passage/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/more-context-for-your-next-passage/">&lt;p&gt;When we start thinking about the next sailing season, we rarely have just one question. What are the typical winds? How does the sea state change through the year? Does lightning activity increase later in the summer?&lt;&#x2F;p&gt;
+&lt;p&gt;Since our &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;understanding-wind-patterns-in-the-aegean-sea&#x2F;&quot;&gt;introduction to the wind layers&lt;&#x2F;a&gt;, we have added more ways to explore those questions. Some appeared briefly in our &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;incusgrid-android-app-launch&#x2F;&quot;&gt;Android announcement&lt;&#x2F;a&gt;; here is a closer look at the weather layers and the interface improvements that make them easier to use.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Updated October 2026: The waves layer now uses a higher-resolution wave model with five sea-state classes and more views, and the lightning layer now shows thunderstorm days instead of a choice of sources. The text and screenshots reflect the current app.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;waves-put-the-wind-picture-in-context&quot;&gt;Waves: put the wind picture in context&lt;&#x2F;h2&gt;
+&lt;p&gt;Wind strength alone does not describe the sea you will meet. The &lt;strong&gt;Waves&lt;&#x2F;strong&gt; layer adds historical sea-state frequencies based on wave height and steepness. It is based on modelled wave data every three hours since October 2021.&lt;&#x2F;p&gt;
+&lt;p&gt;Choose &lt;strong&gt;Calm&lt;&#x2F;strong&gt; (below 0.5 m), &lt;strong&gt;Slight&lt;&#x2F;strong&gt; (0.5–1.25 m), &lt;strong&gt;Moderate&lt;&#x2F;strong&gt; (1.25–2.5 m), &lt;strong&gt;Rough&lt;&#x2F;strong&gt; (2.5–4 m) or &lt;strong&gt;Very Rough&lt;&#x2F;strong&gt; (above 4 m), then select a month or the whole year. Short, steep seas count one class higher and long swell one class lower, because they feel that way on board. The colours show the percentage of modelled hours in the selected class. A higher value for Rough means that class occurred more often in the historical data; it is not a wave-height reading or a forecast for your passage.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;planning-updates&amp;#x2F;waves-moderate-ionian-january-coast.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;planning-updates&amp;#x2F;waves-moderate-ionian-january-coast.webp&quot; alt=&quot;IncusGrid Waves layer in the Ionian Sea with Moderate selected for January&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The Moderate sea-state class in the Ionian Sea in January. Switch class and month to compare the historical pattern.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Try the same area in January and July, keeping the class unchanged. Then compare Moderate with Rough for your intended month. This gives you another way to investigate seasonal differences before you start looking for a specific departure window.&lt;&#x2F;p&gt;
+&lt;p&gt;Under &lt;strong&gt;More&lt;&#x2F;strong&gt;, the layer goes beyond the classes: the &lt;strong&gt;mean wave height&lt;&#x2F;strong&gt;, the share of &lt;strong&gt;short, steep sea&lt;&#x2F;strong&gt;, &lt;strong&gt;swell&lt;&#x2F;strong&gt; with arrows showing which way it runs, the &lt;strong&gt;swell period&lt;&#x2F;strong&gt;, and the number of &lt;strong&gt;calm days&lt;&#x2F;strong&gt; and &lt;strong&gt;rough days&lt;&#x2F;strong&gt; per month.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;planning-updates&amp;#x2F;waves-swell-january-coast.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;planning-updates&amp;#x2F;waves-swell-january-coast.webp&quot; alt=&quot;IncusGrid Waves layer showing swell in the central Mediterranean in January&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Swell of at least 1 m in January. The arrows show which way the swell runs.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;These are regional modelled patterns. A closer map view does not turn the layer into a harbour-scale prediction of swell or shelter.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;lightning-observations-and-favourable-conditions&quot;&gt;Lightning: observations and favourable conditions&lt;&#x2F;h2&gt;
+&lt;p&gt;Under &lt;strong&gt;Lightning&lt;&#x2F;strong&gt;, the map now brings together three different views: &lt;strong&gt;Thunderstorm Days&lt;&#x2F;strong&gt;, &lt;strong&gt;Thunderstorm Potential&lt;&#x2F;strong&gt; and &lt;strong&gt;Terrain Exposure&lt;&#x2F;strong&gt;. Each answers a different question.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Thunderstorm Days&lt;&#x2F;strong&gt; shows how often lightning was actually recorded: the share of days in a month with lightning in the area. It is based on observations from a global ground-based lightning detection network and covers 2013–2025. Each value describes an area of about 0.5° (roughly 55 km), so the layer shows regional patterns rather than individual bays.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;planning-updates&amp;#x2F;lightning-croatia-july-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;planning-updates&amp;#x2F;lightning-croatia-july-2026-10.webp&quot; alt=&quot;Thunderstorm days around Croatia in July&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Thunderstorm Days around Croatia in July.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;For a month-by-month look at the Adriatic, see our &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;exploring-lightning-patterns-in-the-adriatic-sea&#x2F;&quot;&gt;seasonal analysis of lightning patterns&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Lightning detection networks do not catch every strike, and their detection efficiency varies by region. Treat the values as a relative pattern: a lower recorded value is not evidence that lightning cannot occur there.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Thunderstorm Potential&lt;&#x2F;strong&gt; looks at the environment instead of recorded strikes. Based on 30 years of atmospheric data, it shows how often conditions favourable to thunderstorms occurred. It is a separate perspective: favourable conditions do not necessarily produce a storm, and the layer does not predict the next one.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Terrain Exposure&lt;&#x2F;strong&gt; brings the picture down to the scale of an anchorage. Zoom into a bay to explore how surrounding hills and headlands shape its modelled exposure to lightning. Even within the same bay, the terrain can make a difference, giving you another useful perspective when comparing potential places to anchor.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-map-in-your-language&quot;&gt;The map in your language&lt;&#x2F;h2&gt;
+&lt;p&gt;IncusGrid&#x27;s app interface now supports &lt;strong&gt;19 languages&lt;&#x2F;strong&gt;, including German, French, Spanish, Italian, Greek, Croatian, Dutch and Turkish.&lt;&#x2F;p&gt;
+&lt;p&gt;The app uses your browser&#x27;s language preferences where supported. You can also choose a language from the selector at the top, and the app remembers that choice. Controls, help text, month names and route details change with it; the underlying data stays the same.&lt;&#x2F;p&gt;
+&lt;p&gt;This applies to the app interface. Geographic names and external services such as checkout may still use their own language settings.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;start-with-one-area-and-one-month&quot;&gt;Start with one area and one month&lt;&#x2F;h2&gt;
+&lt;p&gt;Pick a cruising area you know. Choose a month, explore the wind and wave layers in turn, then look at Thunderstorm Days and Thunderstorm Potential. Keeping the area and month consistent makes the differences easier to interpret.&lt;&#x2F;p&gt;
+&lt;p&gt;IncusGrid helps you investigate historical patterns for planning. When it is time to sail, current forecasts, charts and local conditions still guide the passage itself.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;&quot;&gt;Explore the updated map →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>IncusGrid is now on Android</title>
+          <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/incusgrid-android-app-launch/</link>
+          <guid>https://blog.incusgrid.com/blog/incusgrid-android-app-launch/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/incusgrid-android-app-launch/">&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;android-banner.png&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;android-banner.png&quot; alt=&quot;IncusGrid is now available on Android&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;IncusGrid is now available on Android&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;It&#x27;s 3 AM. The wind has shifted. You&#x27;re wondering if the bay across the headland would be safer. You don&#x27;t want to dig out a laptop. You want answers on the device that&#x27;s already next to your bunk.&lt;&#x2F;p&gt;
+&lt;p&gt;A native mobile app has been one of the &lt;strong&gt;most requested features&lt;&#x2F;strong&gt; from our users since we launched IncusGrid, and today we&#x27;re delivering: &lt;strong&gt;IncusGrid is now available as a native Android app on the Google Play Store.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.incusgrid.app&quot;&gt;&lt;strong&gt;Get IncusGrid on Google Play →&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;beyond-the-forecast-now-in-your-pocket&quot;&gt;Beyond the forecast, now in your pocket&lt;&#x2F;h2&gt;
+&lt;p&gt;Standard weather apps tell you what&#x27;s coming tomorrow. IncusGrid reveals the patterns they miss: years of lightning strikes, wind statistics, sea states, and terrain shielding, all combined into one map that helps you decide &lt;em&gt;where&lt;&#x2F;em&gt; and &lt;em&gt;when&lt;&#x2F;em&gt; to sail.&lt;&#x2F;p&gt;
+&lt;p&gt;With the Android app, that weather intelligence is now one tap away on the device that&#x27;s always with you:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lightning Activity&lt;&#x2F;strong&gt;: billions of historical strikes, processed into a clear heatmap. See which regions are lightning hotspots and which stay calm, month by month.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Terrain Shielding&lt;&#x2F;strong&gt;: our exposure layer identifies anchorages that are naturally protected by surrounding hills, the kind of insight a forecast simply can&#x27;t give you.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Wind Patterns&lt;&#x2F;strong&gt;: prevailing directions and strength distributions for any region and any month, drawn from years of historical wind data.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Wave Patterns&lt;&#x2F;strong&gt;: see how typical sea states vary across regions and seasons, so the swell on passage day isn&#x27;t a surprise.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Whether you&#x27;re planning next season&#x27;s route from the couch or making a quick anchorage decision in the cockpit, the bigger picture is right there on your phone.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-a-native-app&quot;&gt;Why a native app?&lt;&#x2F;h2&gt;
+&lt;p&gt;The web app at &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&quot;&gt;app.incusgrid.com&lt;&#x2F;a&gt; isn&#x27;t going anywhere. It remains the best way to plan a route on a larger screen. But on a boat, your phone is the device that&#x27;s always with you, always charged from a USB outlet, and works even when your laptop is buried in a locker.&lt;&#x2F;p&gt;
+&lt;p&gt;A native app means a proper home screen icon, faster startup, and a smoother experience when you&#x27;re zooming around the map looking for that one statistically safer bay.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-s-next&quot;&gt;What&#x27;s next&lt;&#x2F;h2&gt;
+&lt;p&gt;We are working on an iOS version next, so iPhone users won&#x27;t have to wait much longer. In the meantime, if you sail with an Android phone, give the app a try and let us know what you think.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.incusgrid.app&quot;&gt;&lt;strong&gt;Install IncusGrid for Android&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Stay safe and fair winds! ⛵️⚡️&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>New on IncusGrid: Historical wind layers</title>
+          <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/understanding-wind-patterns-in-the-aegean-sea/</link>
+          <guid>https://blog.incusgrid.com/blog/understanding-wind-patterns-in-the-aegean-sea/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/understanding-wind-patterns-in-the-aegean-sea/">&lt;p&gt;We are excited to announce a major new feature: &lt;strong&gt;Wind Layers&lt;&#x2F;strong&gt; are now available on IncusGrid.&lt;&#x2F;p&gt;
+&lt;p&gt;Just like our lightning and exposure layers, the wind layers are based on historical data and help you understand what to expect at any location worldwide. Let&#x27;s walk through what&#x27;s new.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Updated October 2026: The wind layers are now based on hourly weather model data at about 9 km resolution (2017–2025), and the controls have grown. All screenshots and numbers in this post come from the current version.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-the-wind-layers-show&quot;&gt;What the wind layers show&lt;&#x2F;h3&gt;
+&lt;p&gt;Each wind heatmap shows &lt;strong&gt;what share of hours&lt;&#x2F;strong&gt; a location experiences a particular wind condition. The color scale runs from pale yellow (rare) through orange and red to deep purple (frequent).&lt;&#x2F;p&gt;
+&lt;p&gt;You can choose between two types of layers:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Speed categories&lt;&#x2F;strong&gt;: Calm (below 6 kn), Light (6–10 kn), Moderate (10–18 kn), Strong (18–30 kn) and Storm (above 30 kn)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Wind directions&lt;&#x2F;strong&gt;: N, NE, E, SE, S, SW, W, NW. They count the hours with at least 6 kn from that direction.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;wind_controls-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;wind_controls-2026-10.webp&quot; alt=&quot;Time of day, speed categories and the compass rose for direction selection&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Time of day, speed categories and the compass rose for direction selection&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Each category has its own percentage scale that matches its typical frequency. Storm conditions top out at 20 %, because even the windiest places rarely see storm-force winds for long. Moderate wind uses a wider 0–80 % scale, and the direction layers go up to 60 %.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;moderate_july.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;moderate_july.webp&quot; alt=&quot;Moderate wind (10–18 kn) in July, on its 0–80 % scale&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Moderate wind (10–18 kn) in July, on its 0–80 % scale&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;example-the-meltemi-in-the-aegean&quot;&gt;Example: The Meltemi in the Aegean&lt;&#x2F;h3&gt;
+&lt;p&gt;To see the layers in action, let&#x27;s look at a well-known wind pattern: the Meltemi in the Aegean Sea.&lt;&#x2F;p&gt;
+&lt;p&gt;The Meltemi is a strong northerly wind that blows across the Aegean during summer. Selecting the &lt;strong&gt;North direction&lt;&#x2F;strong&gt; layer for &lt;strong&gt;July&lt;&#x2F;strong&gt; makes this pattern immediately visible. Between Evia, Mykonos and Naxos, the wind comes from the north in about 60 % of all hours, the top of the scale.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_n_july-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_n_july-2026-10.webp&quot; alt=&quot;North wind in July: The Meltemi is clearly visible across the central Aegean&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;North wind in July: The Meltemi is clearly visible across the central Aegean&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Now switch to &lt;strong&gt;South wind&lt;&#x2F;strong&gt; for the same month.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_s_july-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_s_july-2026-10.webp&quot; alt=&quot;South wind in July: Barely present in the Aegean&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;South wind in July: Barely present in the Aegean&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The contrast speaks for itself. In July, southerly wind blows in at most about 3 % of hours across the Aegean.&lt;&#x2F;p&gt;
+&lt;p&gt;The compass rose also shows that the Meltemi does not come from due north everywhere. In the North Aegean, it mostly blows from the &lt;strong&gt;northeast&lt;&#x2F;strong&gt; (about half of all hours). Around Santorini, Ikaria and Rhodes, a large share comes from the &lt;strong&gt;northwest&lt;&#x2F;strong&gt; (around a third of all hours near Santorini and Ikaria). Check the neighbouring directions for your own cruising area.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-seasonal-shift&quot;&gt;The seasonal shift&lt;&#x2F;h3&gt;
+&lt;p&gt;What happens when we move to November? The &lt;strong&gt;North wind&lt;&#x2F;strong&gt; layer is still active in the Aegean, but much less than in summer. In the Cyclades, the share drops from about 60 % to 30–40 % of hours.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_n_november-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_n_november-2026-10.webp&quot; alt=&quot;North wind in November: The Meltemi season is over, but northerlies remain common&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;North wind in November: The Meltemi season is over, but northerlies remain common&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;And the &lt;strong&gt;South wind&lt;&#x2F;strong&gt; layer now shows activity where there was none in summer: around 10–15 % of hours in the Cyclades and more than 20 % in the North Aegean.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_s_november-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;dir_s_november-2026-10.webp&quot; alt=&quot;South wind in November: Southerly winds return to the Aegean&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;South wind in November: Southerly winds return to the Aegean&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Being able to flip between months like this makes seasonal wind shifts easy to spot — not just in the Aegean, but anywhere in the world.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;storm-detail-layer&quot;&gt;Storm detail layer&lt;&#x2F;h3&gt;
+&lt;p&gt;For storm-force winds, we offer two views: &lt;strong&gt;Storm&lt;&#x2F;strong&gt; (0–20 % scale) and &lt;strong&gt;Storm*&lt;&#x2F;strong&gt; (0–2 % scale).&lt;&#x2F;p&gt;
+&lt;p&gt;The regular Storm layer is useful for identifying the world&#x27;s stormiest regions. But in many sailing areas, storm percentages are low, often below 2 %. On the 0–20 % scale, these differences are hard to see.&lt;&#x2F;p&gt;
+&lt;p&gt;That&#x27;s where Storm* comes in. With its finer 0–2 % scale, subtle differences become visible. Two percent of a month is roughly 14 hours of storm-force wind — significant enough to factor into planning. In December, the North Aegean reaches this level, while most of the Cyclades stay well below 1 %.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;storm_detail_december-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;storm_detail_december-2026-10.webp&quot; alt=&quot;Storm* in December: The finer scale reveals differences in low-storm regions&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Storm* in December: The finer scale reveals differences in low-storm regions&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;monthly-breakdown&quot;&gt;Monthly breakdown&lt;&#x2F;h3&gt;
+&lt;p&gt;Like the lightning layers, all wind layers are available &lt;strong&gt;per month&lt;&#x2F;strong&gt; and as a &lt;strong&gt;yearly average&lt;&#x2F;strong&gt;. Use the timeline at the bottom of the screen to switch between months and watch patterns change through the seasons.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;timeline-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;wind-pattern-meltemi&amp;#x2F;timeline-2026-10.webp&quot; alt=&quot;Switch between months using the timeline&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Switch between months using the timeline&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;more-since-launch&quot;&gt;More since launch&lt;&#x2F;h3&gt;
+&lt;p&gt;Since this post was first published, the wind layers have learned a few new tricks. You can split every speed and direction layer by &lt;strong&gt;time of day&lt;&#x2F;strong&gt;, see the average wind speed, check how &lt;strong&gt;steady&lt;&#x2F;strong&gt; the wind is, and count &lt;strong&gt;storm days&lt;&#x2F;strong&gt;, &lt;strong&gt;gust days&lt;&#x2F;strong&gt;, &lt;strong&gt;quiet nights&lt;&#x2F;strong&gt; and the &lt;strong&gt;duration of strong wind&lt;&#x2F;strong&gt;. We explore the time-of-day layers in &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;two-seas-two-clocks-wind-by-time-of-day-in-greece&#x2F;&quot;&gt;Two seas, two clocks&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;try-it-out&quot;&gt;Try it out&lt;&#x2F;h3&gt;
+&lt;p&gt;The wind layers are available now on &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&quot;&gt;IncusGrid&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;. Select &quot;Wind&quot; in the layer toggle to get started. We&#x27;d love to hear your feedback.&lt;&#x2F;p&gt;
+&lt;p&gt;Fair winds! ⛵️💨&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Sailing the Adriatic: A seasonal analysis of lightning patterns</title>
+          <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/exploring-lightning-patterns-in-the-adriatic-sea/</link>
+          <guid>https://blog.incusgrid.com/blog/exploring-lightning-patterns-in-the-adriatic-sea/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/exploring-lightning-patterns-in-the-adriatic-sea/">&lt;p&gt;The Adriatic Sea is a dream destination for sailors with stunning coastlines, historic towns, and clear water. However, anyone who has spent a summer in Croatia knows the other side of the coin: Sudden, violent thunderstorms (Neverins) are a real threat.&lt;&#x2F;p&gt;
+&lt;p&gt;After a lightning strike hit right next to our boat in Greece, we built &lt;strong&gt;IncusGrid&lt;&#x2F;strong&gt; to stop guessing and start analyzing. We combined more than a decade of global lightning observations, 30 years of weather reanalysis and detailed terrain models to understand where the real risks lie.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Updated October 2026: All screenshots now come from the current version of IncusGrid. Its &lt;strong&gt;Thunderstorm Days&lt;&#x2F;strong&gt; layer is based on a new lightning dataset, so we rechecked every statement against it. Some of them changed.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;how-to-read-the-maps&quot;&gt;How to read the maps&lt;&#x2F;h3&gt;
+&lt;p&gt;The &lt;strong&gt;Thunderstorm Days&lt;&#x2F;strong&gt; layer shows the share of days in a month on which lightning was detected nearby (2013–2025). 10 % means about three thunderstorm days a month, 20 % about six. Each value describes an area of roughly 55 × 40 km. It shows regional patterns, not individual anchorages. For the anchorage itself, there is the terrain layer further down.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-season-begins-june&quot;&gt;The Season Begins: June&lt;&#x2F;h3&gt;
+&lt;p&gt;By June, thunderstorms are already part of the picture, and not only in the north. The Gulf of Trieste leads with thunderstorms on about 27 % of days. But the south is far from calm: Around &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5073137186111488&quot;&gt;Dubrovnik&lt;&#x2F;a&gt; and Budva, it is 19–23 %, about as much as in &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6434837892169728&quot;&gt;Split&lt;&#x2F;a&gt; (18 %). The quietest part of the Croatian coast in June is the stretch from Novalja to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;6473439982387200&quot;&gt;Zadar&lt;&#x2F;a&gt;, at around 12 %.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;june.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;june.webp&quot; alt=&quot;Thunderstorm days in June: The Gulf of Trieste and the coast from Dubrovnik to Montenegro lead, the Zadar area is the quietest&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Thunderstorm days in June: The Gulf of Trieste and the coast from Dubrovnik to Montenegro lead, the Zadar area is the quietest&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;the-peak-july-local-variations&quot;&gt;The Peak: July &amp;amp; Local Variations&lt;&#x2F;h3&gt;
+&lt;p&gt;In July, the north stays the most active part of the Adriatic: The Gulf of Trieste and the Kvarner around Rijeka and Senj reach 21–29 % thunderstorm days. Further south, the differences become smaller. Novalja, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;4746348041601024&quot;&gt;Šibenik&lt;&#x2F;a&gt;, Split, Makarska and Dubrovnik all sit around 15–17 %.&lt;&#x2F;p&gt;
+&lt;p&gt;The calmest stretch is once again around &lt;strong&gt;Zadar and Biograd&lt;&#x2F;strong&gt; (about 14 %). On the map, it stands out as a lighter band between the Kvarner and Šibenik.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Pro Tip:&lt;&#x2F;strong&gt; If you seek calm nights in July, the Zadar archipelago is statistically a slightly safer bet than the Kvarner. The difference to Split is small, though: about one thunderstorm day less per month.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;july.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;july.webp&quot; alt=&quot;Thunderstorm days in July: The Kvarner around Rijeka and Senj stands out, the Zadar area stays lighter&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Thunderstorm days in July: The Kvarner around Rijeka and Senj stands out, the Zadar area stays lighter&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;the-contrast-the-ionian-sea&quot;&gt;The Contrast: The Ionian Sea&lt;&#x2F;h3&gt;
+&lt;p&gt;It is also interesting to zoom out. While the Northern Adriatic cooks, the Ionian Sea is remarkably calm in July: around &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5944103137181696&quot;&gt;Corfu&lt;&#x2F;a&gt; about 6 % of days see thunderstorms, around &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.noforeignland.com&#x2F;map&#x2F;place&#x2F;5497351892369408&quot;&gt;Zakynthos&lt;&#x2F;a&gt; only 2 %. For anyone looking to avoid the peak thunderstorm season, it is a real alternative.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;july-ionian.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;july-ionian.webp&quot; alt=&quot;Further south in the Ionian Sea: Barely any thunderstorms in July&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Further south in the Ionian Sea: Barely any thunderstorms in July&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;high-season-august&quot;&gt;High Season: August&lt;&#x2F;h3&gt;
+&lt;p&gt;In August, the focus shifts south. From Makarska via Dubrovnik to Budva, the coast reaches 21–23 % thunderstorm days, more than in July. The Zadar area remains the calmest part of the Croatian coast at around 16 %. The Gulf of Trieste is still the most active area of the Adriatic (27 %).&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;august.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;august.webp&quot; alt=&quot;Thunderstorm days in August: The southern coast from Makarska to Montenegro catches up&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Thunderstorm days in August: The southern coast from Makarska to Montenegro catches up&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;potential-is-not-the-same-as-thunderstorms&quot;&gt;Potential is not the same as thunderstorms&lt;&#x2F;h3&gt;
+&lt;p&gt;IncusGrid also shows a second layer: &lt;strong&gt;Thunderstorm Potential&lt;&#x2F;strong&gt;, the share of time in which the atmosphere favours thunderstorms (based on 30 years of weather reanalysis). In July, this is the case 55–68 % of the time along the Adriatic coast, but thunderstorms actually occur on only 14–27 % of days.&lt;&#x2F;p&gt;
+&lt;p&gt;Both layers therefore answer different questions. The potential shows how often the ingredients are in place, the thunderstorm days show how often a storm actually develops. Where both are high, as in the Gulf of Trieste and the Kvarner, a forecast with a thunderstorm risk deserves extra attention.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;potential-july.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;potential-july.webp&quot; alt=&quot;Thunderstorm potential in July: Favourable conditions are common along the entire Adriatic coast&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Thunderstorm potential in July: Favourable conditions are common along the entire Adriatic coast&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;finding-shelter-the-power-of-terrain-shielding&quot;&gt;Finding Shelter: The Power of Terrain Shielding&lt;&#x2F;h3&gt;
+&lt;p&gt;Even in active zones, terrain matters. And it matters even within a single bay.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s look at the island of Lopud near Dubrovnik with the &lt;strong&gt;Terrain Exposure&lt;&#x2F;strong&gt; layer. It shows how high the surrounding terrain rises within about 350 m of a spot on the water. Green means strong shielding by nearby hills, purple means little shielding.&lt;&#x2F;p&gt;
+&lt;p&gt;The best shielded water around Lopud lies along the south coast below the hills (well over 100 m). In the bay of &lt;strong&gt;Uvala Šunj&lt;&#x2F;strong&gt;, the picture is mixed: In the inner part, close to the slopes, the terrain rises 40–70 m (light green). In the middle of the bay, it drops to 10–25 m, and at the entrance to almost nothing. The harbour of Lopud town on the other side of the island is in a similar range to Šunj (about 15–50 m).&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;exposure-lopud.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;exposure-lopud.webp&quot; alt=&quot;Lopud with the Terrain Exposure layer: The water below the southern hills is the best shielded, and in Uvala Šunj (south-east) the inner part of the bay is better shielded than its entrance&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Lopud with the Terrain Exposure layer: The water below the southern hills is the best shielded, and in Uvala Šunj (south-east) the inner part of the bay is better shielded than its entrance&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;strong&gt;What this means:&lt;&#x2F;strong&gt; If you anchor in Uvala Šunj during a thunderstorm-prone period, the inner part of the bay, close to the slopes, offers more terrain shielding than the middle. The steep hills provide a theoretical &quot;shadow zone&quot;, but no guarantee. Always keep an eye on the forecast as well.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;late-season-the-flip-september-november&quot;&gt;Late Season: The Flip (September - November)&lt;&#x2F;h3&gt;
+&lt;p&gt;As autumn approaches, the Ionian Sea wakes up. In September, Corfu and Zakynthos rise to 13–17 % thunderstorm days, while the Adriatic coast stays at around 20 %.&lt;&#x2F;p&gt;
+&lt;p&gt;In October, the pattern flips: The Croatian coast becomes noticeably calmer (about 9–12 % thunderstorm days), while the Ionian Sea gets more active than the Adriatic (16–20 %).&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;october.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;october.webp&quot; alt=&quot;October: The Adriatic calms down, the Ionian Sea becomes more active&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;October: The Adriatic calms down, the Ionian Sea becomes more active&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;In November, thunderstorm activity increases again in both seas, but the south clearly leads. Around Corfu and Zakynthos, every third day sees thunderstorms (about 30 %). The Croatian coast rises back to 14–19 %, about as much as in July, so the Adriatic is not a calm sea in November either.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;november.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;adriatic&amp;#x2F;november.webp&quot; alt=&quot;November: The Ionian Sea and the coasts of Albania and Greece become the thunderstorm hotspot&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;November: The Ionian Sea and the coasts of Albania and Greece become the thunderstorm hotspot&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;plan-your-own-route&quot;&gt;Plan your own route&lt;&#x2F;h3&gt;
+&lt;p&gt;These are general seasonal trends, but every region is different.&lt;&#x2F;p&gt;
+&lt;p&gt;Are you planning a charter or a cruise in the Adriatic? Don&#x27;t rely on luck. Check your specific anchorages on &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;incusgrid.com&quot;&gt;IncusGrid&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;: Use thunderstorm days and potential for the season, and terrain exposure to see whether you are dropping your hook in a sheltered spot or an exposed one.&lt;&#x2F;p&gt;
+&lt;p&gt;Stay safe and fair winds! ⛵️⚡️&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Why We Built IncusGrid: From Lightning Strike to Safety Tool</title>
+          <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/introducing-incusgrid/</link>
+          <guid>https://blog.incusgrid.com/blog/introducing-incusgrid/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/introducing-incusgrid/">&lt;p&gt;Last October, our family was sailing the Ionian Sea when we sheltered in the bay of Igoumenitsa, Greece, to avoid an approaching storm. While we were very protected from the wind and waves, we experienced a lightning strike right next to our boat. It damaged our electronics and left us shaken.&lt;&#x2F;p&gt;
+&lt;p&gt;Ever since, we&#x27;ve asked ourselves: What are our chances of being struck by lightning at this location? Would we be safer on the east side of the bay or on the west side? How much does the surrounding terrain protect us from lightning strikes?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-is-incusgrid&quot;&gt;What is IncusGrid?&lt;&#x2F;h2&gt;
+&lt;p&gt;Weather apps predict when a lightning storm is approaching. IncusGrid combines &lt;em&gt;historical data&lt;&#x2F;em&gt; with &lt;em&gt;local terrain features&lt;&#x2F;em&gt; to show you where you are statistically safest from lightning strikes.&lt;&#x2F;p&gt;
+&lt;p&gt;Lightning strikes are chaotic and cannot be predicted with certainty. The lightning strike that hit the water next to our boat could have just as well hit our boat directly. Just like wearing a seatbelt doesn&#x27;t guarantee survival but significantly improves your odds, choosing the right anchorage can reduce your lightning risk.&lt;&#x2F;p&gt;
+&lt;p&gt;This might mean avoiding a specific region during a specific time of the year or choosing the side of a bay that is better protected by surrounding terrain. IncusGrid helps you make these decisions based on data.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;topography-analysis&quot;&gt;Topography analysis&lt;&#x2F;h3&gt;
+&lt;p&gt;When high buildings or technical facilities are built, a so-called &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;axis-india.com&#x2F;rolling-sphere-method&#x2F;&quot;&gt;rolling sphere method&lt;&#x2F;a&gt; is often used to determine which parts of the building need additional lightning protection. Applying this method identifies areas that are naturally protected by surrounding terrain features.&lt;&#x2F;p&gt;
+&lt;p&gt;IncusGrid takes a simpler approach in the same spirit: for every spot on the water, it looks at how high the surrounding terrain rises within about 350 m. The higher the nearby hills and cliffs, the better the spot is shielded.&lt;&#x2F;p&gt;
+&lt;p&gt;We expose this analysis through our &lt;strong&gt;Terrain Exposure&lt;&#x2F;strong&gt; layer, which covers most parts of the world.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;exposure-igoumenitsa-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;exposure-igoumenitsa-2026-10.webp&quot; alt=&quot;The bay of Igoumenitsa: the southern shore (green) is far better shielded by the surrounding hills than the town shore (purple).&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The bay of Igoumenitsa: the southern shore (green) is far better shielded by the surrounding hills than the town shore (purple).&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;historical-lightning-patterns&quot;&gt;Historical lightning patterns&lt;&#x2F;h3&gt;
+&lt;p&gt;In addition to terrain shielding, IncusGrid looks at where and when thunderstorms happen. Our &lt;strong&gt;Thunderstorm Days&lt;&#x2F;strong&gt; layer shows the share of days per month on which lightning was recorded in an area, based on more than a decade of observations from a global lightning detection network (2013–2025). It helps identify how thunderstorm activity varies throughout the year and across different regions.&lt;&#x2F;p&gt;
+&lt;p&gt;In the bay of Igoumenitsa, for example, thunderstorms occur on about 17 % of days in October, roughly five days a month. In July, it is less than 9 %.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link&quot; href=&quot;&amp;#x2F;images&amp;#x2F;thunder-days-ionian-october-2026-10.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;thunder-days-ionian-october-2026-10.webp&quot; alt=&quot;Thunderstorm Days in October: In autumn, thunderstorms become common across the Ionian Sea.&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Thunderstorm Days in October: In autumn, thunderstorms become common across the Ionian Sea.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;A second layer, &lt;strong&gt;Thunderstorm Potential&lt;&#x2F;strong&gt;, shows how often the atmosphere favoured thunderstorms, based on 30 years of weather reanalysis.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;more-to-come&quot;&gt;More to come&lt;&#x2F;h2&gt;
+&lt;p&gt;IncusGrid is continuously evolving. Since this post was first published, we have added &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;understanding-wind-patterns-in-the-aegean-sea&#x2F;&quot;&gt;historical wind layers&lt;&#x2F;a&gt;, sea states, &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;collective-sailing-experience&#x2F;&quot;&gt;sailing routes&lt;&#x2F;a&gt; and boat stays. For a closer look at the lightning layers, see our &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;exploring-lightning-patterns-in-the-adriatic-sea&#x2F;&quot;&gt;seasonal analysis of the Adriatic&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking back at that night in Igoumenitsa, IncusGrid now shows us that the southern shore would have offered better terrain shielding. We can&#x27;t change the past, but we can make better decisions in the future.&lt;&#x2F;p&gt;
+&lt;p&gt;Ready to explore lightning patterns in your cruising area? &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&quot;&gt;Open IncusGrid&lt;&#x2F;a&gt; and see for yourself.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
