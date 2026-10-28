@@ -7,7 +7,75 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>The next 10 days: IncusGrid&#x27;s first forecast</title>
+          <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/the-next-10-days/</link>
+          <guid>https://blog.incusgrid.com/blog/the-next-10-days/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/the-next-10-days/">&lt;p&gt;We started IncusGrid after lightning struck the water right next to our boat in the Ionian Sea. Afterwards we had questions that none of our sailing apps could answer. &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;introducing-incusgrid&#x2F;&quot;&gt;Would we have been safer in another bay?&lt;&#x2F;a&gt; How often does this area get thunderstorms in October? Where do other boats actually go at this time of year, and where do they stay?&lt;&#x2F;p&gt;
+&lt;p&gt;Weather apps are very good at telling you what is coming. What they leave out is what is &lt;em&gt;normal&lt;&#x2F;em&gt;, and what thousands of crews before you actually did. That is the gap we have been filling: &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;thunderstorm-risk&#x2F;&quot;&gt;thunderstorm risk down to single bays&lt;&#x2F;a&gt;, wind and sea state for every month, &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;collective-sailing-experience&#x2F;&quot;&gt;real sailing routes and boat stays&lt;&#x2F;a&gt;, and since this month &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;one-place-one-card&#x2F;&quot;&gt;weather windows on routes and shelter from wind at anchorages&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;All of that looks back over many years. The obvious next question is what happens when you put it next to the weather that is actually coming. Today we take the first step.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;next-10-days-the-forecast-on-the-same-map&quot;&gt;Next 10 days: the forecast on the same map&lt;&#x2F;h2&gt;
+&lt;p&gt;The period selector at the bottom of the map has always had the months and the year. It now has a third choice: &lt;strong&gt;Next 10 days&lt;&#x2F;strong&gt;. Wind, Waves and Thunderstorm Risk switch from the season&#x27;s normal to the forecast, and the months make way for the days and hours.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--phone&quot;&gt;
+  &lt;div class=&quot;phone-frame&quot;&gt;
+    &lt;video src=&quot;&amp;#x2F;images&amp;#x2F;forecast&amp;#x2F;forecast-timeline.mp4&quot; poster=&quot;&amp;#x2F;images&amp;#x2F;forecast&amp;#x2F;forecast-timeline-poster.webp&quot; width=&quot;780&quot; height=&quot;1688&quot; aria-label=&quot;IncusGrid on a phone: a swipe through the hours from Thursday morning into Friday, then from the yearly wind layer to the next 10 days and two taps on days&quot;
+      autoplay muted loop playsinline preload=&quot;metadata&quot;&gt;&lt;&#x2F;video&gt;
+  &lt;&#x2F;div&gt;
+  
+  &lt;figcaption&gt;From the season to the forecast: tap a day to jump, swipe the hours to glide through it and on into the next day.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;script&gt;
+  (() =&gt; {
+    if (!matchMedia(&#x27;(prefers-reduced-motion: reduce)&#x27;).matches) return;
+    const video = document.currentScript.previousElementSibling.querySelector(&#x27;video&#x27;);
+    video.removeAttribute(&#x27;autoplay&#x27;);
+    video.pause();
+    video.controls = true;
+  })();
+&lt;&#x2F;script&gt;
+&lt;p&gt;You move through the forecast in two ways:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Jump:&lt;&#x2F;strong&gt; tap a day, and the map shows it at the same time of day you were looking at.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Glide:&lt;&#x2F;strong&gt; swipe the hours, and the map follows hour by hour. It keeps going past midnight into the next day, so you can watch a front come through or the wind ease off overnight without breaking the flow. With a mouse, the scroll wheel moves one hour per notch, and the arrow keys work too.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;what-you-see&quot;&gt;What you see&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wind:&lt;&#x2F;strong&gt; speed or gusts in knots, with moving particles showing where the wind blows.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Waves:&lt;&#x2F;strong&gt; significant wave height, or the same sea-state classes as the monthly layer, with lines showing where the waves run.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Thunderstorm risk:&lt;&#x2F;strong&gt; none, low, moderate or high.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Every hour is shown for the first six days. After that the forecast is less certain, so it continues in 6-hour steps marked as a trend. The forecast comes from ECMWF&#x27;s global model at about 9 km resolution, covers the whole world and is updated four times a day. The legend always shows when the forecast was made and when the next update is due.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-forecast-measured-against-the-season&quot;&gt;The forecast, measured against the season&lt;&#x2F;h2&gt;
+&lt;p&gt;Tap the map and you get the forecast for that point, together with what IncusGrid already knows about it: how often it blows that hard or gets that rough &lt;strong&gt;at this place in this month&lt;&#x2F;strong&gt;. A 25-knot day means something different in the Meltemi than on a quiet stretch of coast. Now you can see which of the two it is, right next to the forecast.&lt;&#x2F;p&gt;
+&lt;p&gt;This is the part we are most excited about, and it is only the beginning.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-comes-next&quot;&gt;What comes next&lt;&#x2F;h2&gt;
+&lt;p&gt;We have many, many more ideas for bringing the forecast together with everything IncusGrid knows, and we are already working on them. Expect plenty of new forecast features over the coming weeks.&lt;&#x2F;p&gt;
+&lt;p&gt;If you want everything that is coming, there is still a chance to get the Lifetime plan. You pay once, and it includes all current and future Pro features for good. We will not offer it forever.&lt;&#x2F;p&gt;
+
+&lt;aside class=&quot;plan-card&quot; aria-label=&quot;Lifetime plan&quot;&gt;
+  &lt;div class=&quot;plan-card__head&quot;&gt;
+    &lt;p class=&quot;mono-label plan-card__name&quot;&gt;Lifetime&lt;&#x2F;p&gt;
+    &lt;p class=&quot;mono-label plan-card__badge&quot;&gt;Limited time&lt;&#x2F;p&gt;
+  &lt;&#x2F;div&gt;
+  &lt;p class=&quot;plan-card__note&quot;&gt;Pay once, keep full access.&lt;&#x2F;p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Everything in Pro, permanently&lt;&#x2F;li&gt;
+    &lt;li&gt;Future features included&lt;&#x2F;li&gt;
+    &lt;li&gt;No subscription to manage&lt;&#x2F;li&gt;
+  &lt;&#x2F;ul&gt;
+  &lt;a class=&quot;plan-card__button&quot; href=&quot;https:&amp;#x2F;&amp;#x2F;incusgrid.com&amp;#x2F;pricing?utm_source=blog&amp;amp;utm_medium=content&amp;amp;utm_campaign=forecast_launch&quot;&gt;Get Lifetime&lt;&#x2F;a&gt;
+&lt;&#x2F;aside&gt;
+&lt;p&gt;Made by sailors, for sailors. We keep building the app we always missed on board, one missing piece at a time. ⛵&lt;&#x2F;p&gt;
+&lt;p class=&quot;cta&quot;&gt;
+  &lt;a class=&quot;cta-button&quot; href=&quot;https:&amp;#x2F;&amp;#x2F;app.incusgrid.com&amp;#x2F;?utm_source=blog&amp;amp;utm_medium=content&amp;amp;utm_campaign=forecast_launch&quot;&gt;Open Forecast &lt;span aria-hidden=&quot;true&quot;&gt;→&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>One place, one card: what&#x27;s new in IncusGrid this October</title>
           <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
