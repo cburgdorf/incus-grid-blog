@@ -12,9 +12,9 @@
           <title>From two clicks to a passage plan: weather routing in IncusGrid</title>
           <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
           <author>Unknown</author>
-          <link>https://blog.incusgrid.com/blog/plan-a-passage/</link>
-          <guid>https://blog.incusgrid.com/blog/plan-a-passage/</guid>
-          <description xml:base="https://blog.incusgrid.com/blog/plan-a-passage/">&lt;p&gt;Two days ago we put &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;the-next-10-days&#x2F;&quot;&gt;the 10-day forecast&lt;&#x2F;a&gt; on the map. The next question on board is usually a practical one: &lt;em&gt;if we leave tomorrow, when do we arrive, and what will the wind be like on the way?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+          <link>https://blog.incusgrid.com/blog/weather-routing-in-incusgrid/</link>
+          <guid>https://blog.incusgrid.com/blog/weather-routing-in-incusgrid/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/weather-routing-in-incusgrid/">&lt;p&gt;Two days ago we put &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;the-next-10-days&#x2F;&quot;&gt;the 10-day forecast&lt;&#x2F;a&gt; on the map. The next question on board is usually a practical one: &lt;em&gt;if we leave tomorrow, when do we arrive, and what will the wind be like on the way?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The new &lt;strong&gt;passage planner&lt;&#x2F;strong&gt; answers that. You set a start and a destination, and IncusGrid calculates a fast route for your boat using the forecast, working out the passage hour by hour.&lt;&#x2F;p&gt;
 &lt;p&gt;We&#x27;ll show it on a passage in the Dodecanese: &lt;strong&gt;Leros to Rhodes&lt;&#x2F;strong&gt;, past Kos, around Cape Krio and south of Symi. It is about 87 nautical miles, or around 16 hours for a 40-foot cruiser. In November there are only about eleven hours of daylight, so part of the passage will be at night whenever you leave. Our example starts on Wednesday, 4 November 2026; all times here are local to Greece (UTC+2).&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;planning-the-passage&quot;&gt;Planning the passage&lt;&#x2F;h2&gt;
