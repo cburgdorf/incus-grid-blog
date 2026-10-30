@@ -7,7 +7,107 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>From two clicks to a passage plan: weather routing in IncusGrid</title>
+          <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/plan-a-passage/</link>
+          <guid>https://blog.incusgrid.com/blog/plan-a-passage/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/plan-a-passage/">&lt;p&gt;Two days ago we put &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;the-next-10-days&#x2F;&quot;&gt;the 10-day forecast&lt;&#x2F;a&gt; on the map. The next question on board is usually a practical one: &lt;em&gt;if we leave tomorrow, when do we arrive, and what will the wind be like on the way?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The new &lt;strong&gt;passage planner&lt;&#x2F;strong&gt; answers that. You set a start and a destination, and IncusGrid calculates a fast route for your boat using the forecast, working out the passage hour by hour.&lt;&#x2F;p&gt;
+&lt;p&gt;We&#x27;ll show it on a passage in the Dodecanese: &lt;strong&gt;Leros to Rhodes&lt;&#x2F;strong&gt;, past Kos, around Cape Krio and south of Symi. It is about 87 nautical miles, or around 16 hours for a 40-foot cruiser. In November there are only about eleven hours of daylight, so part of the passage will be at night whenever you leave. Our example starts on Wednesday, 4 November 2026; all times here are local to Greece (UTC+2).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;planning-the-passage&quot;&gt;Planning the passage&lt;&#x2F;h2&gt;
+&lt;p&gt;Open &lt;strong&gt;Plan a passage&lt;&#x2F;strong&gt; in the layer bar, next to Wind. Click the map for the start, then for the destination. Set both just outside the harbour: the planner routes at sea and leaves the last miles into port to you. It names the passage after the nearest places, and you can rename it.&lt;&#x2F;p&gt;
+&lt;p&gt;Under &lt;strong&gt;Boat&lt;&#x2F;strong&gt;, choose the type and size that comes closest to the boat you sail, for example &lt;em&gt;Monohull 38–42 ft&lt;&#x2F;em&gt;. The planner uses its typical speeds to time the passage, and for a first plan that is all you need.&lt;&#x2F;p&gt;
+&lt;p&gt;Then choose a departure anywhere in the forecast and press &lt;strong&gt;Calculate route&lt;&#x2F;strong&gt;. After a few seconds the summary appears at the top of the planner:&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--card&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;result-leros-rhodes.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;result-leros-rhodes.webp&quot; alt=&quot;The planner&amp;#x27;s summary for Leros to Rhodes leaving Wednesday at 08:00: arrival Thursday 01:15 in the dark, strongest wind 12 knots with gusts of 23 and 0.6 m waves, 16 hours sailing, mostly downwind, 2 hours motoring with about 4 litres&quot; width=&quot;800&quot; height=&quot;242&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Leros to Rhodes, leaving on Wednesday at 08:00: mostly downwind, with an arrival at a quarter past one in the morning.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arrival&lt;&#x2F;strong&gt;, marked with ☾ when it falls after dark or at dusk&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Strongest&lt;&#x2F;strong&gt; wind, gusts and waves on the way&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Sailing&lt;&#x2F;strong&gt;: the hours upwind, reaching and downwind&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Motoring&lt;&#x2F;strong&gt;: the hours under engine, and roughly how much fuel that uses&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;On the map the route is coloured by wind speed, motoring is dashed white and night hours are shaded. Every course change is a waypoint with the time you pass it. Under each leg you can open its hours with speed, wind, and true and apparent wind angle. Positions are in degrees and minutes, as on the plotter.&lt;&#x2F;p&gt;
+&lt;p&gt;With the slider under &lt;strong&gt;Along the route&lt;&#x2F;strong&gt; you can follow the boat along the passage on the map. Next to it you see its speed, the wind angles, wind, gusts and waves. The wind map moves to the same hour, so you also see the weather around the route.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;adjusting-the-boat&quot;&gt;Adjusting the boat&lt;&#x2F;h2&gt;
+&lt;p&gt;The boat settings affect both the route and its timing. If you know your boat well, you can adjust it under &lt;strong&gt;Polar and settings&lt;&#x2F;strong&gt;: the polar table itself, how efficiently you sail with a full cruising load, how close to the wind you go, a wind speed to stay out of, when you start the engine, and its speed and fuel use. With an account your boat is saved and available on every device you sign in on.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--card&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;boat-polar.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;boat-polar.webp&quot; alt=&quot;The boat settings for a 38–42 ft monohull: motor below 3 knots at 5.5 knots and 2.5 litres an hour, 90 % efficiency, 40° closest to the wind, avoid wind above 35 knots, and the polar table of boat speed by wind speed and wind angle&quot; width=&quot;744&quot; height=&quot;1012&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The 38–42 ft monohull with its settings and polar. When you change a value, the boat becomes “Custom”, and “Reset to preset” takes you back.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;when-to-leave&quot;&gt;When to leave&lt;&#x2F;h2&gt;
+&lt;p&gt;Leaving Leros on Wednesday morning gives a good downwind sail, but it arrives in Rhodes at a quarter past one at night, after 17 hours at sea.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Compare departures&lt;&#x2F;strong&gt; checks up to twelve departure times, six hours apart, starting at your selected departure and stopping at the end of the forecast. It lists arrival, duration, strongest wind and time under motor. Among completed passages, the star marks the lowest combined time under motor and upwind, rounded to whole hours. If that is tied, the shorter passage wins. Click a row to see that route on the map.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--card&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;compare-leros-rhodes.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;compare-leros-rhodes.webp&quot; alt=&quot;The departures table for Leros to Rhodes, every six hours from Wednesday 08:00: Wednesday morning arrives Thursday 01:15, Wednesday 20:00 arrives Thursday 11:33 without motoring, the starred departure on Thursday at 14:00 arrives Friday 02:51&quot; width=&quot;744&quot; height=&quot;632&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Departures every six hours from Wednesday morning. The star favours less motoring and upwind sailing, with the shorter passage breaking a tie; it does not account for daylight at arrival.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;In this table the star is on Thursday at 14:00: 13 hours without the engine. It arrives at ten to three in the morning, though. Wednesday evening also has no motoring or upwind sailing, but Thursday wins because the passage is shorter. The star does not account for daylight at arrival, so it is worth reading the arrival column as well.&lt;&#x2F;p&gt;
+&lt;p&gt;We would leave on Wednesday at 20:00. That is one night at sea, downwind all the way, with no more than 14 knots of wind and no motoring, and the arrival in Rhodes is at half past eleven in the morning. It is the route in the picture at the top of this post.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Avoid wind above&lt;&#x2F;strong&gt; to limit the forecast wind speed used for routing. This limit applies to wind speed, not gusts; check the gust forecast separately. In the Wednesday morning example, the strongest wind is 12 knots, but gusts reach 23 knots.&lt;&#x2F;p&gt;
+&lt;p&gt;All numbers here come from the forecast of 30 October. If you open the same passage a few days later, it is calculated on the newer forecast and the times will be different.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;changing-the-route&quot;&gt;Changing the route&lt;&#x2F;h2&gt;
+&lt;p&gt;You may want to change the suggested route. On the way to Rhodes it passes close to Cape Krio on the Turkish coast. If you drag that waypoint further out, the passage is calculated again through the new point; in our example it took about half an hour longer. Right-click or long-press the route to add a waypoint, or a waypoint to remove it. When a leg points into the wind, the planner times it as beating at your boat&#x27;s best angle. If you change the departure afterwards, the router optimizes the route again around the waypoints you placed.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;saving-sharing-and-using-it-underway&quot;&gt;Saving, sharing and using it underway&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Save&lt;&#x2F;strong&gt; a passage to your bookmarks. When you open it again it is calculated on that day&#x27;s forecast, so you can see how the plan changes as the departure gets closer.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Share&lt;&#x2F;strong&gt; sends a link to your crew. They see the same passage, calculated with their own boat.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Start the passage&lt;&#x2F;strong&gt; when you leave: your GPS position appears next to the planned boat, and IncusGrid tells you when you are 30 minutes ahead or behind the plan, or 2 nautical miles off the route. &lt;strong&gt;Adjust the route&lt;&#x2F;strong&gt; plans the rest from where you are, and the original plan stays visible for comparison.&lt;&#x2F;li&gt;
+&lt;li&gt;On a &lt;strong&gt;phone&lt;&#x2F;strong&gt; the planner is a sheet at the bottom. Fold it down, and the map follows the boat while you move along the route.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;figure class=&quot;figure figure--phone&quot;&gt;
+  &lt;a class=&quot;figure-link phone-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;phone-leros-rhodes.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;passage-planner&amp;#x2F;phone-leros-rhodes.webp&quot; alt=&quot;The passage planner on a phone: the route from Leros to Rhodes on the wind map, the sheet folded at the bottom with the slider at Thursday 03:00 and the boat south of Kos&quot; width=&quot;780&quot; height=&quot;1688&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;On a phone the sheet folds down after the route is calculated, and the map keeps most of the screen.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;passages-longer-than-the-forecast&quot;&gt;Passages longer than the forecast&lt;&#x2F;h2&gt;
+&lt;p&gt;For an ocean passage the destination is often more than ten days away. In that case the planner does not optimize the route. It draws straight legs through the waypoints you set, calculates them hour by hour as far as the forecast goes, and estimates the rest in grey at your boat&#x27;s average speed. As the departure gets closer, more of the passage falls within the forecast.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;good-to-know&quot;&gt;Good to know&lt;&#x2F;h2&gt;
+&lt;p&gt;The planner uses ECMWF&#x27;s global forecast and a simple polar. It doesn&#x27;t yet include currents or the effect of waves on boat speed, and it doesn&#x27;t route the last miles into the harbour. It is a planning tool, not for navigation.&lt;&#x2F;p&gt;
+&lt;p&gt;Without full access, a route covers the first 24 hours of a passage. With full access you can plan the whole passage over all ten days.&lt;&#x2F;p&gt;
+
+&lt;aside class=&quot;plan-card&quot; aria-label=&quot;Lifetime plan&quot;&gt;
+  &lt;div class=&quot;plan-card__head&quot;&gt;
+    &lt;p class=&quot;mono-label plan-card__name&quot;&gt;Lifetime&lt;&#x2F;p&gt;
+    &lt;p class=&quot;mono-label plan-card__badge&quot;&gt;Limited time&lt;&#x2F;p&gt;
+  &lt;&#x2F;div&gt;
+  &lt;p class=&quot;plan-card__note&quot;&gt;Pay once, keep full access.&lt;&#x2F;p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Everything in Pro, permanently&lt;&#x2F;li&gt;
+    &lt;li&gt;Future features included&lt;&#x2F;li&gt;
+    &lt;li&gt;No subscription to manage&lt;&#x2F;li&gt;
+  &lt;&#x2F;ul&gt;
+  &lt;a class=&quot;plan-card__button&quot; href=&quot;https:&amp;#x2F;&amp;#x2F;incusgrid.com&amp;#x2F;pricing?utm_source=blog&amp;amp;utm_medium=content&amp;amp;utm_campaign=passage_planner&quot;&gt;Get Lifetime&lt;&#x2F;a&gt;
+&lt;&#x2F;aside&gt;
+&lt;p&gt;Made by sailors, for sailors. ⛵&lt;&#x2F;p&gt;
+&lt;p class=&quot;cta&quot;&gt;
+  &lt;a class=&quot;cta-button&quot; href=&quot;https:&amp;#x2F;&amp;#x2F;app.incusgrid.com&amp;#x2F;?utm_source=blog&amp;amp;utm_medium=content&amp;amp;utm_campaign=passage_planner&quot;&gt;Plan a passage &lt;span aria-hidden=&quot;true&quot;&gt;→&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>The next 10 days: IncusGrid&#x27;s first forecast</title>
           <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
