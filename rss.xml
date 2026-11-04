@@ -7,7 +7,115 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>More room on the map: one sheet for every layer</title>
+          <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/more-room-on-the-map/</link>
+          <guid>https://blog.incusgrid.com/blog/more-room-on-the-map/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/more-room-on-the-map/">&lt;p&gt;A month ago, IncusGrid&#x27;s map had a handful of layers: wind, waves, lightning, sailing routes and boat stays. Since then we have added &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;thunderstorm-risk&#x2F;&quot;&gt;thunderstorm risk down to single bays&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;sand-or-seagrass&#x2F;&quot;&gt;the seabed along the coast&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;one-place-one-card&#x2F;&quot;&gt;conditions for one place on one card&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;the-next-10-days&#x2F;&quot;&gt;the forecast&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;weather-routing-in-incusgrid&#x2F;&quot;&gt;weather routing&lt;&#x2F;a&gt;. And more layers are on the way.&lt;&#x2F;p&gt;
+&lt;p&gt;Every one of them got a chip in the row of layers at the top of the map. That row was full, and it had started to get in the way. So we rebuilt how you choose what the map shows.&lt;&#x2F;p&gt;
+&lt;p&gt;Along the way, many of you wrote to us: what you missed, what confused you, what you would like next. A lot of what follows comes straight from that feedback. Thank you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-was-wrong-with-the-row&quot;&gt;What was wrong with the row&lt;&#x2F;h2&gt;
+&lt;p&gt;The chips looked alike, but they did three different things. Wind, waves and the thunderstorm layers replaced each other. Sailing routes and boat stays were meant to sit on top. And &quot;Plan a passage&quot; was a tool, not a layer at all. From the chips alone you could not tell which was which.&lt;&#x2F;p&gt;
+&lt;p&gt;Each layer also kept its own month. You looked at the wind in May, switched to thunderstorm days, and were suddenly looking at August without noticing. And some combinations you would naturally want were not possible at all: berths over the wind forecast, berths over thunderstorm days, sailing routes over the wind of the month.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-new-layer-sheet&quot;&gt;The new layer sheet&lt;&#x2F;h2&gt;
+&lt;p&gt;The row is gone. In its place are two buttons.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The legend button&lt;&#x2F;strong&gt; at the bottom left names what the map shows right now, for example &quot;Wind&quot; or &quot;Seabed + Berths&quot;, with a small colour scale. Tap it for the full legend and the help for that layer.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The layers button&lt;&#x2F;strong&gt;, the round one below the location button, opens the layer sheet. On phones and tablets it slides up from below and covers at most half the screen, so you still see the map change while you try layers. On a desktop it opens beside the map buttons.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--phone&quot;&gt;
+  &lt;a class=&quot;figure-link phone-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;sheet-phone.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;sheet-phone.webp&quot; alt=&quot;The IncusGrid layer sheet on a phone with Look back, Berths switched on and Wind chosen&quot; width=&quot;600&quot; height=&quot;1298&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The layer sheet on a phone: Look back or Look ahead at the top, then the features, the weather and the maps.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The sheet is built around three simple ideas.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Look back or look ahead.&lt;&#x2F;strong&gt; At the top you choose between the two halves of IncusGrid. &lt;em&gt;Look back&lt;&#x2F;em&gt; shows what years of data say, month by month: wind, waves and four views of thunderstorms. &lt;em&gt;Look ahead&lt;&#x2F;em&gt; shows the forecast for the coming days, by day and hour: wind and gusts, wave height and sea state, and thunderstorm risk. Each side remembers the layer you last used there. It is our slogan as a switch: plan the season, sail the day.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Features on top.&lt;&#x2F;strong&gt; Berths and sailing routes are switches of their own. Berths stay on over whatever background you choose, on both sides. Sailing routes go over any background of Look back.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;One background.&lt;&#x2F;strong&gt; Below them you pick exactly one background. That can be a weather layer, or one of the maps: hotspots, the plain map, a satellite map, the seabed or terrain shielding.&lt;&#x2F;p&gt;
+&lt;p&gt;And the map now has &lt;strong&gt;one time&lt;&#x2F;strong&gt;. Look back has one month (or the whole year) for every layer; look ahead has one forecast hour. Switching layers never changes it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;berths-and-routes-in-a-new-light&quot;&gt;Berths and routes, in a new light&lt;&#x2F;h2&gt;
+&lt;p&gt;This is the part we are most excited about, because it answers questions the old layout could not.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Berths over the forecast.&lt;&#x2F;strong&gt; Turn on Berths, switch to Look ahead and choose Wind. Now you see the anchorages and marinas around you together with tomorrow afternoon&#x27;s wind. Swipe through the hours to see which side of the island stays sheltered when the wind turns.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;forecast.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;forecast.webp&quot; alt=&quot;Berths around Lefkada and Meganisi over the wind forecast for Thursday afternoon&quot; width=&quot;1800&quot; height=&quot;959&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Berths around Lefkada and Meganisi over the wind forecast for Thursday, 5 November, at 2 pm.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;strong&gt;Berths over thunderstorm days.&lt;&#x2F;strong&gt; For &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;wintering-in-the-mediterranean&#x2F;&quot;&gt;where crews leave their boat for the winter&lt;&#x2F;a&gt;, thunderstorms matter. Keep Berths on, go to Look back, choose Thunderstorms and pick October. The marinas where boats stay sit right on the map of how often lightning was recorded there in that month.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;thunder.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;thunder.webp&quot; alt=&quot;Berths along the Ionian coast over thunderstorm days in October&quot; width=&quot;1800&quot; height=&quot;959&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Berths from Corfu to the Gulf of Patras over thunderstorm days in October.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;strong&gt;Sailing routes over the wind.&lt;&#x2F;strong&gt; Turn on Sailing Routes over the wind for a month and you see where crews actually sail, next to the wind they usually meet there.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;routes.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;routes.webp&quot; alt=&quot;Sailing routes across the Ionian Sea over the share of hours with moderate wind in May&quot; width=&quot;1800&quot; height=&quot;959&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Sailing routes over the wind in May: the share of hours with 10–18 knots.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;strong&gt;Anchorages over the seabed or the satellite map.&lt;&#x2F;strong&gt; Zoom into a bay with Berths on and switch the background to Seabed: sand or seagrass, right next to the anchorage symbol. Or switch to the new &lt;strong&gt;satellite map&lt;&#x2F;strong&gt; for a look at the bay itself, the beach, the rocks and the moorings.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;seabed.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;seabed.webp&quot; alt=&quot;Anchorages around Meganisi over the seabed layer&quot; width=&quot;1800&quot; height=&quot;959&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Anchorages around Meganisi over the seabed.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;satellite.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;satellite.webp&quot; alt=&quot;The same anchorages around Meganisi on the satellite map&quot; width=&quot;1800&quot; height=&quot;959&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The same view on the satellite map.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;As before, a tap on a berth or a route opens its card. A tap on empty map shows the background&#x27;s value at that point.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;plan-a-passage-one-tap-away&quot;&gt;Plan a passage, one tap away&lt;&#x2F;h2&gt;
+&lt;p&gt;The passage planner has its own round button now, below the layers button, and its own entry under Look ahead in the layer sheet. If you open it while looking back, the map switches to the forecast and tells you so, because the planner sails on the forecast.&lt;&#x2F;p&gt;
+&lt;p&gt;With the planner open, the route summary is a way into the layers too. Tap the strongest wind, the strongest gusts or the highest waves on the route, and the map shows that layer at the hour it happens.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;planner.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;layer-sheet&amp;#x2F;planner.webp&quot; alt=&quot;The passage planner from Leros to Rhodes with the strongest wind tapped in the route summary&quot; width=&quot;1800&quot; height=&quot;959&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Leros to Rhodes: a tap on the strongest wind shows the wind at the hour it blows, here 21 knots off Leros at the start.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;better-because-of-your-feedback&quot;&gt;Better because of your feedback&lt;&#x2F;h2&gt;
+&lt;p&gt;The layer sheet is the biggest change you will see, but it is not the only one. Since we launched &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;weather-routing-in-incusgrid&#x2F;&quot;&gt;weather routing&lt;&#x2F;a&gt; last week, sailors have been putting the planner through its paces on their own boats and passages, and telling us what they found. We have shipped many, many improvements because of that feedback, often within a day. Here are the biggest ones.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Tacking upwind.&lt;&#x2F;strong&gt; When the destination is upwind, the planner now beats on real tacks, as few as the sea allows, instead of motoring straight into the wind. You choose how far the boat should sail upwind before it takes the engine, and how much time a tack costs your crew.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Your own polar.&lt;&#x2F;strong&gt; Add your boat&#x27;s polar from a file or as text. Don&#x27;t have one? The planner asks a few questions about your boat and writes a prompt you can give an AI assistant, then takes its answer straight over.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;A gust limit.&lt;&#x2F;strong&gt; Next to the wind limit you can now set &quot;Avoid gusts above&quot;, so a passage stays clear of squally hours.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GPX export.&lt;&#x2F;strong&gt; Take the calculated route to your plotter or navigation app as a GPX file.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Offline passages in the Android app.&lt;&#x2F;strong&gt; In the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.incusgrid.app&quot;&gt;IncusGrid Android app&lt;&#x2F;a&gt;, &quot;Make available offline&quot; saves a passage with its forecast. At sea, without a connection, you can still see the wind along the route and recalculate it from where you are.&lt;&#x2F;p&gt;
+&lt;p&gt;The iPhone app is on its way.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;try-it&quot;&gt;Try it&lt;&#x2F;h2&gt;
+&lt;p&gt;Open the map, tap the layers button, and pick a cruising area you know. Turn on Berths, then switch between the wind for next month and the wind for tomorrow. Plan the season. Sail the day.&lt;&#x2F;p&gt;
+&lt;p&gt;Tell us how the new layout works for you. We read every message, and as you can see above, your feedback goes straight into the app.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;&quot;&gt;Open the new map →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>From two clicks to a passage plan: weather routing in IncusGrid</title>
           <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
