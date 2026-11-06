@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google Analytics, only with consent: the property of the landing page and the web app; filter by hostname
+       or app_surface. Same consent logic as apps/web/src/app.html and apps/landing-page/src/app.html; the banner
+       is static/cookie-banner.js. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    // Consent Mode v2, basic: everything denied until the visitor accepts; gtag.js is not even loaded before.
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    gtag('js', new Date());
+    gtag('set', { app_surface: 'blog' });
+    (function () {
+      // The URL a visit arrived on (campaign parameters, gclid), so consent given later still credits the ad.
+      try { if (!sessionStorage.getItem('incus_landing')) sessionStorage.setItem('incus_landing', JSON.stringify({ url: location.href, referrer: document.referrer })); } catch (_) {}
+      var started = false;
+      // Called on load with a stored choice, and by the banner; the choice is incus_consent=1.<analytics>.<ads>.
+      window.startAnalytics = function (ads) {
+        gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: ads ? 'granted' : 'denied', ad_user_data: ads ? 'granted' : 'denied', ad_personalization: ads ? 'granted' : 'denied' });
+        if (started) return;
+        started = true;
+        var landing = null;
+        try { landing = JSON.parse(sessionStorage.getItem('incus_landing')); } catch (_) {}
+        gtag('config', 'G-7Q5WFSS215', landing && landing.url !== location.href ? { page_location: landing.url, page_referrer: landing.referrer } : {});
+        document.head.appendChild(Object.assign(document.createElement('script'), { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-7Q5WFSS215' }));
+      };
+      var stored = /(?:^|;\s*)incus_consent=1\.([01])\.([01])(?:;|$)/.exec(document.cookie);
+      if (stored && stored[1] === '1') startAnalytics(stored[2] === '1');
+      // After a withdrawal: the services may have rewritten their cookies while the page unloaded.
+      if (stored) {
+        var unwanted = new RegExp('^(' + (stored[1] === '0' ? '_ga|_ga_.*|' : '') + (stored[2] === '0' ? '_gcl_.*|_fbp|_fbc|' : '') + ')$');
+        document.cookie.split(';').forEach(function (part) {
+          var name = part.split('=')[0].trim();
+          if (!name || !unwanted.test(name)) return;
+          ['', '; domain=' + location.hostname, '; domain=.' + location.hostname, '; domain=incusgrid.com'].forEach(function (domain) {
+            document.cookie = name + '=; path=/; max-age=0' + domain;
+          });
+        });
+      }
+    })();
+  </script>
+  <script defer src="https://blog.incusgrid.com/cookie-banner.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f3eee3">
+  <title>IncusGrid for iPhone and iPad: weather routing, offline passages and anchorage protection | IncusGrid</title>
+  <meta name="description" content="IncusGrid is now in the App Store: plan passages on the 10-day forecast, take them offline to sea, and see how protected an anchorage is over the next 72 hours.">
+
+  <!-- Canonical URL -->
+  
+<link rel="canonical" href="https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/" />
+
+
+  <!-- Open Graph / Social Media -->
+  
+
+
+
+
+
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/" />
+<meta property="og:title" content="It&#x27;s here: IncusGrid for iPhone and iPad" />
+<meta property="og:description" content="The app you asked for most is in the App Store. Weather routing that keeps working offline, a protection score that tells you three days ahead whether you&#x27;ll sleep or roll all night, sailing routes and their seasonality from years of recorded boat movements, and much more you haven&#x27;t seen in any other sailing app." />
+<meta property="og:image" content="https://blog.incusgrid.com/images/ios-launch/og-ios.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="IncusGrid" />
+<meta property="og:locale" content="en_GB" />
+<meta property="article:published_time" content="2026-11-06" />
+<meta property="article:modified_time" content="2026-11-06" />
+
+<meta property="article:author" content="IncusGrid Team" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="It&#x27;s here: IncusGrid for iPhone and iPad" />
+<meta name="twitter:description" content="The app you asked for most is in the App Store. Weather routing that keeps working offline, a protection score that tells you three days ahead whether you&#x27;ll sleep or roll all night, sailing routes and their seasonality from years of recorded boat movements, and much more you haven&#x27;t seen in any other sailing app." />
+<meta name="twitter:image" content="https://blog.incusgrid.com/images/ios-launch/og-ios.jpg" />
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "It's here: IncusGrid for iPhone and iPad",
+  "description": "The app you asked for most is in the App Store. Weather routing that keeps working offline, a protection score that tells you three days ahead whether you'll sleep or roll all night, sailing routes and their seasonality from years of recorded boat movements, and much more you haven't seen in any other sailing app.",
+  "image": ["https://blog.incusgrid.com/images/ios-launch/cover-ios.webp","https://blog.incusgrid.com/images/ios-launch/og-ios.jpg"],
+  "url": "https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Organization",
+    "name": "IncusGrid Team",
+    "url": "https://incusgrid.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "IncusGrid",
+    "url": "https://incusgrid.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://incusgrid.com/incusgrid_logo_transparent.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/"
+  }
+}
+</script>
+
+
+  <!-- Fonts: the landing page's set -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://blog.incusgrid.com/main.css?h=bb95f3f4513e0ac359a3">
+
+  <!-- RSS -->
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://blog.incusgrid.com/rss.xml">
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="https://incusgrid.com" class="site-logo">
+        <img src="https://blog.incusgrid.com/incusgrid_logo_transparent.svg" alt="" class="site-logo-img" />
+        <span>Incus<span class="accent">Grid</span></span>
+      </a>
+      <nav class="site-nav">
+        <a href="https://blog.incusgrid.com" class="current">Blog</a>
+        <a href="https://incusgrid.com/pricing">Pricing</a>
+        <a href="https://incusgrid.com/support">Help</a>
+        <a href="https://app.incusgrid.com" class="nav-cta">Open the map</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+
+<article class="post">
+  <header class="post-header">
+    <a href="https://blog.incusgrid.com" class="mono-label back-link">&larr; All posts</a>
+    <p class="mono-label kicker">
+      <time datetime="2026-11-06">November 06, 2026</time>
+      · 8 min read
+    </p>
+    <h1 class="post-title">It&#x27;s here: IncusGrid for iPhone and iPad</h1>
+    
+    <p class="post-lead">The app you asked for most is in the App Store. Weather routing that keeps working offline, a protection score that tells you three days ahead whether you&#x27;ll sleep or roll all night, sailing routes and their seasonality from years of recorded boat movements, and much more you haven&#x27;t seen in any other sailing app.</p>
+    
+  </header>
+
+  <figure class="post-cover">
+    
+    <div class="chart-frame"><img src="&#x2F;images&#x2F;ios-launch&#x2F;cover-ios.webp" alt="Three iPhones with IncusGrid: the anchorage card for Lower Bay on Bequia, the passage from Rodney Bay to Bequia on the wind forecast, and the comparison of departures" width="1800" height="1000" fetchpriority="high" /></div>
+    
+    
+  </figure>
+
+  <div class="post-content">
+    <p>When we launched <a href="https://blog.incusgrid.com/blog/incusgrid-android-app-launch/">the Android app</a> in April, one question came back more than any other: <em>and for iPhone?</em> It has been the most requested feature ever since.</p>
+<p>Today the answer is yes. <strong>IncusGrid is now in the App Store, for iPhone and iPad.</strong></p>
+<p><a rel="external" href="https://apps.apple.com/app/incusgrid/id6823732960"><strong>Download IncusGrid on the App Store →</strong></a></p>
+<p>The app arrives at a good moment. This autumn IncusGrid learned to plan passages on the forecast, to keep them working without a connection, and to answer the question every skipper asks at sunset: <em>will this anchorage hold up tonight, and will we sleep?</em> We'll show all three on one passage in the Windward Islands, where the season is just starting: from <strong>Rodney Bay on St Lucia to Admiralty Bay on Bequia</strong>, about 70 nautical miles south, next Tuesday.</p>
+<h2 id="when-to-leave-weather-routing-in-your-pocket">When to leave: weather routing in your pocket</h2>
+<p>Set a start and a destination, and IncusGrid calculates a fast route for your boat on the 10-day ECMWF forecast: when you arrive, the strongest wind, gusts and waves on the way, and how many hours you sail upwind, reaching or under motor. We explained the planner in detail in <a href="https://blog.incusgrid.com/blog/weather-routing-in-incusgrid/">From two clicks to a passage plan</a>. On the iPhone it is the same planner, with the map taking most of the screen; on the iPad, the route and the result sit side by side.</p>
+
+<figure class="figure figure--tablet">
+  <a class="figure-link tablet-frame" href="&#x2F;images&#x2F;ios-launch&#x2F;ipad-passage-bequia.webp">
+    <img src="&#x2F;images&#x2F;ios-launch&#x2F;ipad-passage-bequia.webp" alt="The passage from Rodney Bay to Bequia on an iPad: the route past St Lucia and St Vincent on the wind forecast, the boat between the islands at 00:47 on Wednesday, reaching in 13 knots from the east, the result beside it: arrival on Wednesday at 06:19, 12 hours under sail, no motoring" width="1800" height="1350" loading="lazy" />
+  </a>
+  
+  <figcaption>Rodney Bay to Bequia on the iPad, leaving on Tuesday evening: at 00:47 the boat is reaching across the St Vincent Channel in 13 knots of trade wind.</figcaption>
+  
+</figure>
+<p>Next week the trade wind is back: 13 to 14 knots from the east, a reach all the way south. Every departure sails without the engine and takes about twelve hours. So the question is no longer <em>whether</em> to go, but <em>when</em>.</p>
+<p>That is what <strong>Compare departures</strong> is for. IncusGrid calculates the passage for every departure over the next two days and puts them side by side: arrival, duration, strongest wind, hours under motor, and <strong>the weather on the way</strong>. Here that last column decides it. Leave on Tuesday morning and you get an hour of rain. Leave late on Tuesday night or on Wednesday, and showers and thunderstorms move through the islands while you are out there.</p>
+<p>Tuesday at 18:00 stays dry: an overnight reach, the anchor down in Admiralty Bay at 06:19 as the sun comes up.</p>
+
+<figure class="figure figure--tablet">
+  <a class="figure-link tablet-frame" href="&#x2F;images&#x2F;ios-launch&#x2F;ipad-departures-bequia.webp">
+    <img src="&#x2F;images&#x2F;ios-launch&#x2F;ipad-departures-bequia.webp" alt="The comparison of departures from Rodney Bay to Bequia on an iPad, from Tuesday 06:00 to Thursday 02:00: all about 12 hours with no motoring, the weather column with rain on Tuesday morning and showers and thunderstorms from Tuesday night on, Tuesday 18:00 chosen, dry, arriving on Wednesday at 06:19" width="1800" height="1350" loading="lazy" />
+  </a>
+  
+  <figcaption>Every departure side by side, with the rain and thunderstorms along the way. Tuesday 18:00 stays dry and arrives at sunrise.</figcaption>
+  
+</figure>
+<h2 id="take-the-passage-to-sea-even-without-a-connection">Take the passage to sea, even without a connection</h2>
+<p>Between St Lucia and Bequia lie two countries, two SIM cards and a long stretch where the signal may simply be gone. That is exactly where you want your plan.</p>
+<p>Before you leave, tap <strong>Make available offline</strong> on the saved passage. The app stores the passage together with its forecast and the coastline around it. At sea, without a connection, you can still:</p>
+<ul>
+<li>follow the boat hour by hour against the plan,</li>
+<li>move waypoints and recalculate the route from where you really are,</li>
+<li>try a later departure while you are still at anchor.</li>
+</ul>
+<p>The app always shows how old the stored forecast is. Once you are back online, it brings the passage up to the newest forecast by itself.</p>
+<h2 id="where-to-spend-the-night-the-protection-score">Where to spend the night: the protection score</h2>
+<p>Every cruiser knows the routine. You look at the wind forecast, then at the chart, then back at the forecast, and try to work out in your head whether the bay is open to where the wind is going. Then you guess about the swell. And at two in the morning you find out you guessed wrong, as the boat starts to roll.</p>
+<p>IncusGrid now does that work for you. Tap any anchorage or mooring field, and you get its <strong>protection score for the next 72 hours</strong>: a number from 0 to 100 for every three hours, worked out for that exact bay from three things:</p>
+<ul>
+<li><strong>the forecast wind and gusts</strong>, and whether they blow into the bay or over the land around it,</li>
+<li><strong>the forecast waves and swell</strong>, including long-period swell that wraps around a headland into a bay that looks sheltered on the chart,</li>
+<li><strong>the shape of the bay itself</strong>: the directions it is open to, measured from the coastline all around.</li>
+</ul>
+<p>Out of that comes a colour band across three days, so you see at a glance <em>when</em> a good anchorage turns bad: the evening the wind veers into the opening, the night the swell finds its way in. Every step says in plain words why it scores the way it does, like <em>"Partly sheltered from the SSE wind, but gusts up to 16 kn"</em>.</p>
+<p>And because the nights are what really matter, IncusGrid works out <strong>how your boat will lie</strong>. With the bow in the wind, does the swell come from ahead, at an angle or right on the beam? Each night gets its verdict, <em>calm</em>, <em>slight rolling</em> or <em>rolly</em>, and a small moon marks it on the band. When it gets rolly, the card suggests what helps: a stern anchor, a flopper stopper, or a line from the chain to the quarter to turn the bow into the swell. So you can pick the bay where you will actually sleep, not just the one where the anchor holds. Drag along the band and the map's forecast moves with you, with wind and swell drawn as arrows onto the bay's shelter ring.</p>
+<p>Right below sits the <strong>seabed within a quarter of a mile</strong>: how much of the bottom around the anchorage is sand, seagrass, rock or reef, so you know where the anchor will hold before it goes down.</p>
+
+<figure class="figure figure--phone">
+  <a class="figure-link phone-frame" href="&#x2F;images&#x2F;ios-launch&#x2F;seabed-bequia.webp">
+    <img src="&#x2F;images&#x2F;ios-launch&#x2F;seabed-bequia.webp" alt="The card for Lower Bay Anchorage on Bequia: open to W–N, protection 100 for the next 72 hours, in the lee of the SE wind and sheltered from the waves, seabed within 0.25 nm 69 % reef and coral, 23 % sand, 6 % seagrass, 2 % rock" width="880" height="1912" loading="lazy" />
+  </a>
+  
+  <figcaption>Lower Bay on Bequia over the next three days: 100, protected, with little swell at night. The bottom around it is mostly reef and coral, so look for the sand.</figcaption>
+  
+</figure>
+<p>For Lower Bay the answer is easy right now: the bay opens to the west and north, the wind and waves come from the east and southeast, and the score stays at 100 for all 72 hours. The seabed tells you the rest: about a quarter of the bottom nearby is sand, the rest mostly reef and coral. Worth knowing before the anchor goes down.</p>
+<h2 id="everything-else-is-there-too">Everything else is there too</h2>
+<p>The iPhone app is the full IncusGrid, with the same account as on the web and on Android. Your saved passages and bookmarks are on every device.</p>
+<ul>
+<li><strong><a href="https://blog.incusgrid.com/blog/one-place-one-card/">The spot report</a>:</strong> press and hold any place for wind, sea state, thunderstorms and the seabed of a month on one card.</li>
+<li><strong><a href="https://blog.incusgrid.com/blog/the-next-10-days/">The next 10 days</a>:</strong> wind, gusts and waves hour by hour on the map.</li>
+<li><strong><a href="https://blog.incusgrid.com/blog/collective-sailing-experience/">Sailing routes</a> and boat stays:</strong> where other crews actually sail, and where they stay.</li>
+<li><strong><a href="https://blog.incusgrid.com/blog/thunderstorm-risk/">Thunderstorm risk</a></strong> down to single bays, and <strong><a href="https://blog.incusgrid.com/blog/sand-or-seagrass/">the seabed</a></strong> along the coast.</li>
+</ul>
+<p>Sign in with Apple, Google or your email address, or just look around without an account. On the iPad, the bigger screen makes planning a season from the saloon table a pleasure.</p>
+<p>Sailing with Android? Offline passages and anchorage protection are in the <a rel="external" href="https://play.google.com/store/apps/details?id=com.incusgrid.app">Android app</a> as well.</p>
+<h2 id="get-it-now">Get it now</h2>
+<p><a rel="external" href="https://apps.apple.com/app/incusgrid/id6823732960"><strong>Download IncusGrid on the App Store →</strong></a></p>
+<p>Thank you to everyone who kept asking. Try it on your next passage, and tell us what you think: we read every message, and much of what is in the app today started as one of them.</p>
+<p>Plan the season. Sail the day. ⛵️</p>
+
+  </div>
+</article>
+
+
+
+
+<aside class="more-posts" aria-labelledby="more-posts-title">
+  <h2 class="mono-label more-posts-title" id="more-posts-title">More from the blog</h2>
+  <div class="post-list">
+    
+    
+    
+    
+    
+    
+
+<article class="post-card">
+  
+  <a class="post-card-cover" href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;more-room-on-the-map&#x2F;" tabindex="-1" aria-hidden="true">
+    
+    <img src="&#x2F;images&#x2F;layer-sheet&#x2F;thunder.webp" alt="" width="1800" height="959" loading="lazy" />
+  </a>
+  
+  <div class="post-card-body">
+    <p class="mono-label post-card-meta">
+      <time datetime="2026-11-04">Nov 04, 2026</time>
+      · 8 min read
+    </p>
+    <h2 class="post-card-title"><a href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;more-room-on-the-map&#x2F;">More room on the map: one sheet for every layer</a></h2>
+    
+    <p class="post-card-excerpt">IncusGrid has grown fast this autumn, and many new features have come with it. To fit them in well, and to make room for what we still want to build, we rethought how the map works. Here is the new layout, and what it makes possible.</p>
+    
+  </div>
+</article>
+
+    
+    
+    
+    
+    
+
+<article class="post-card">
+  
+  <a class="post-card-cover" href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;weather-routing-in-incusgrid&#x2F;" tabindex="-1" aria-hidden="true">
+    
+    <img src="&#x2F;images&#x2F;passage-planner&#x2F;cover-leros-rhodes.webp" alt="" width="1800" height="959" loading="lazy" />
+  </a>
+  
+  <div class="post-card-body">
+    <p class="mono-label post-card-meta">
+      <time datetime="2026-10-30">Oct 30, 2026</time>
+      · 8 min read
+    </p>
+    <h2 class="post-card-title"><a href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;weather-routing-in-incusgrid&#x2F;">From two clicks to a passage plan: weather routing in IncusGrid</a></h2>
+    
+    <p class="post-card-excerpt">IncusGrid now plans passages on the 10-day forecast. Set a start and a destination, and the planner calculates a fast route for your boat: arrival time, strongest wind, hours under sail and under motor, and departure times to compare.</p>
+    
+  </div>
+</article>
+
+    
+    
+    
+    
+    
+
+<article class="post-card">
+  
+  <a class="post-card-cover" href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;the-next-10-days&#x2F;" tabindex="-1" aria-hidden="true">
+    
+    <img src="&#x2F;images&#x2F;forecast&#x2F;og-forecast.jpg" alt="" width="1200" height="630" loading="lazy" />
+  </a>
+  
+  <div class="post-card-body">
+    <p class="mono-label post-card-meta">
+      <time datetime="2026-10-28">Oct 28, 2026</time>
+      · 4 min read
+    </p>
+    <h2 class="post-card-title"><a href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;the-next-10-days&#x2F;">The next 10 days: IncusGrid&#x27;s first forecast</a></h2>
+    
+    <p class="post-card-excerpt">IncusGrid now shows a 10-day forecast for wind, waves and thunderstorm risk on the same map as years of sailing data. Jump to a day with one tap or swipe through the hours. It is a small first step, and there is a lot more to come.</p>
+    
+  </div>
+</article>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+<dialog class="lightbox" id="lightbox" aria-label="Enlarged image">
+  <img alt="" />
+  <p></p>
+</dialog>
+<script>
+  (() => {
+    const box = document.getElementById('lightbox');
+    const img = box.querySelector('img');
+    const caption = box.querySelector('p');
+    document.querySelectorAll('.figure-link').forEach(link => link.addEventListener('click', event => {
+      // Keep "open in new tab" with modifier keys.
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      img.src = link.href;
+      img.alt = link.querySelector('img').alt;
+      caption.textContent = link.closest('figure').querySelector('figcaption')?.textContent ?? '';
+      box.showModal();
+    }));
+    box.addEventListener('click', () => box.close());
+    box.addEventListener('close', () => img.removeAttribute('src'));
+  })();
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-links">
+      <a href="https://incusgrid.com">IncusGrid</a>
+      <a href="https://incusgrid.com/pricing">Pricing</a>
+      <a href="https://blog.incusgrid.com/rss.xml">RSS</a>
+      <a href="https://incusgrid.com/legal-notice">Legal notice</a>
+      <a href="https://incusgrid.com/privacy-policy">Privacy</a>
+      <a href="https://incusgrid.com/cookie-settings">Cookie settings</a>
+      <a href="https://incusgrid.com/support">Support</a>
+    </nav>
+    <nav class="footer-social mono-label" aria-label="IncusGrid elsewhere">
+      <a href="https://www.instagram.com/incusgrid/" rel="me noopener" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/incusgrid/" rel="me noopener" target="_blank">Facebook</a>
+      <a href="https://play.google.com/store/apps/details?id=com.incusgrid.app" rel="noopener" target="_blank">Google Play</a>
+    </nav>
+    <p class="mono-label">&copy; 2026 IncusGrid</p>
+  </footer>
+</body>
+</html>

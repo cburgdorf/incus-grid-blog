@@ -7,7 +7,86 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>It&#x27;s here: IncusGrid for iPhone and iPad</title>
+          <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/</link>
+          <guid>https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/">&lt;p&gt;When we launched &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;incusgrid-android-app-launch&#x2F;&quot;&gt;the Android app&lt;&#x2F;a&gt; in April, one question came back more than any other: &lt;em&gt;and for iPhone?&lt;&#x2F;em&gt; It has been the most requested feature ever since.&lt;&#x2F;p&gt;
+&lt;p&gt;Today the answer is yes. &lt;strong&gt;IncusGrid is now in the App Store, for iPhone and iPad.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;incusgrid&#x2F;id6823732960&quot;&gt;&lt;strong&gt;Download IncusGrid on the App Store →&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The app arrives at a good moment. This autumn IncusGrid learned to plan passages on the forecast, to keep them working without a connection, and to answer the question every skipper asks at sunset: &lt;em&gt;will this anchorage hold up tonight, and will we sleep?&lt;&#x2F;em&gt; We&#x27;ll show all three on one passage in the Windward Islands, where the season is just starting: from &lt;strong&gt;Rodney Bay on St Lucia to Admiralty Bay on Bequia&lt;&#x2F;strong&gt;, about 70 nautical miles south, next Tuesday.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;when-to-leave-weather-routing-in-your-pocket&quot;&gt;When to leave: weather routing in your pocket&lt;&#x2F;h2&gt;
+&lt;p&gt;Set a start and a destination, and IncusGrid calculates a fast route for your boat on the 10-day ECMWF forecast: when you arrive, the strongest wind, gusts and waves on the way, and how many hours you sail upwind, reaching or under motor. We explained the planner in detail in &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;weather-routing-in-incusgrid&#x2F;&quot;&gt;From two clicks to a passage plan&lt;&#x2F;a&gt;. On the iPhone it is the same planner, with the map taking most of the screen; on the iPad, the route and the result sit side by side.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--tablet&quot;&gt;
+  &lt;a class=&quot;figure-link tablet-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;ios-launch&amp;#x2F;ipad-passage-bequia.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;ios-launch&amp;#x2F;ipad-passage-bequia.webp&quot; alt=&quot;The passage from Rodney Bay to Bequia on an iPad: the route past St Lucia and St Vincent on the wind forecast, the boat between the islands at 00:47 on Wednesday, reaching in 13 knots from the east, the result beside it: arrival on Wednesday at 06:19, 12 hours under sail, no motoring&quot; width=&quot;1800&quot; height=&quot;1350&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Rodney Bay to Bequia on the iPad, leaving on Tuesday evening: at 00:47 the boat is reaching across the St Vincent Channel in 13 knots of trade wind.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Next week the trade wind is back: 13 to 14 knots from the east, a reach all the way south. Every departure sails without the engine and takes about twelve hours. So the question is no longer &lt;em&gt;whether&lt;&#x2F;em&gt; to go, but &lt;em&gt;when&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;That is what &lt;strong&gt;Compare departures&lt;&#x2F;strong&gt; is for. IncusGrid calculates the passage for every departure over the next two days and puts them side by side: arrival, duration, strongest wind, hours under motor, and &lt;strong&gt;the weather on the way&lt;&#x2F;strong&gt;. Here that last column decides it. Leave on Tuesday morning and you get an hour of rain. Leave late on Tuesday night or on Wednesday, and showers and thunderstorms move through the islands while you are out there.&lt;&#x2F;p&gt;
+&lt;p&gt;Tuesday at 18:00 stays dry: an overnight reach, the anchor down in Admiralty Bay at 06:19 as the sun comes up.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--tablet&quot;&gt;
+  &lt;a class=&quot;figure-link tablet-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;ios-launch&amp;#x2F;ipad-departures-bequia.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;ios-launch&amp;#x2F;ipad-departures-bequia.webp&quot; alt=&quot;The comparison of departures from Rodney Bay to Bequia on an iPad, from Tuesday 06:00 to Thursday 02:00: all about 12 hours with no motoring, the weather column with rain on Tuesday morning and showers and thunderstorms from Tuesday night on, Tuesday 18:00 chosen, dry, arriving on Wednesday at 06:19&quot; width=&quot;1800&quot; height=&quot;1350&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Every departure side by side, with the rain and thunderstorms along the way. Tuesday 18:00 stays dry and arrives at sunrise.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;take-the-passage-to-sea-even-without-a-connection&quot;&gt;Take the passage to sea, even without a connection&lt;&#x2F;h2&gt;
+&lt;p&gt;Between St Lucia and Bequia lie two countries, two SIM cards and a long stretch where the signal may simply be gone. That is exactly where you want your plan.&lt;&#x2F;p&gt;
+&lt;p&gt;Before you leave, tap &lt;strong&gt;Make available offline&lt;&#x2F;strong&gt; on the saved passage. The app stores the passage together with its forecast and the coastline around it. At sea, without a connection, you can still:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;follow the boat hour by hour against the plan,&lt;&#x2F;li&gt;
+&lt;li&gt;move waypoints and recalculate the route from where you really are,&lt;&#x2F;li&gt;
+&lt;li&gt;try a later departure while you are still at anchor.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The app always shows how old the stored forecast is. Once you are back online, it brings the passage up to the newest forecast by itself.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;where-to-spend-the-night-the-protection-score&quot;&gt;Where to spend the night: the protection score&lt;&#x2F;h2&gt;
+&lt;p&gt;Every cruiser knows the routine. You look at the wind forecast, then at the chart, then back at the forecast, and try to work out in your head whether the bay is open to where the wind is going. Then you guess about the swell. And at two in the morning you find out you guessed wrong, as the boat starts to roll.&lt;&#x2F;p&gt;
+&lt;p&gt;IncusGrid now does that work for you. Tap any anchorage or mooring field, and you get its &lt;strong&gt;protection score for the next 72 hours&lt;&#x2F;strong&gt;: a number from 0 to 100 for every three hours, worked out for that exact bay from three things:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;the forecast wind and gusts&lt;&#x2F;strong&gt;, and whether they blow into the bay or over the land around it,&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;the forecast waves and swell&lt;&#x2F;strong&gt;, including long-period swell that wraps around a headland into a bay that looks sheltered on the chart,&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;the shape of the bay itself&lt;&#x2F;strong&gt;: the directions it is open to, measured from the coastline all around.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Out of that comes a colour band across three days, so you see at a glance &lt;em&gt;when&lt;&#x2F;em&gt; a good anchorage turns bad: the evening the wind veers into the opening, the night the swell finds its way in. Every step says in plain words why it scores the way it does, like &lt;em&gt;&quot;Partly sheltered from the SSE wind, but gusts up to 16 kn&quot;&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;And because the nights are what really matter, IncusGrid works out &lt;strong&gt;how your boat will lie&lt;&#x2F;strong&gt;. With the bow in the wind, does the swell come from ahead, at an angle or right on the beam? Each night gets its verdict, &lt;em&gt;calm&lt;&#x2F;em&gt;, &lt;em&gt;slight rolling&lt;&#x2F;em&gt; or &lt;em&gt;rolly&lt;&#x2F;em&gt;, and a small moon marks it on the band. When it gets rolly, the card suggests what helps: a stern anchor, a flopper stopper, or a line from the chain to the quarter to turn the bow into the swell. So you can pick the bay where you will actually sleep, not just the one where the anchor holds. Drag along the band and the map&#x27;s forecast moves with you, with wind and swell drawn as arrows onto the bay&#x27;s shelter ring.&lt;&#x2F;p&gt;
+&lt;p&gt;Right below sits the &lt;strong&gt;seabed within a quarter of a mile&lt;&#x2F;strong&gt;: how much of the bottom around the anchorage is sand, seagrass, rock or reef, so you know where the anchor will hold before it goes down.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--phone&quot;&gt;
+  &lt;a class=&quot;figure-link phone-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;ios-launch&amp;#x2F;seabed-bequia.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;ios-launch&amp;#x2F;seabed-bequia.webp&quot; alt=&quot;The card for Lower Bay Anchorage on Bequia: open to W–N, protection 100 for the next 72 hours, in the lee of the SE wind and sheltered from the waves, seabed within 0.25 nm 69 % reef and coral, 23 % sand, 6 % seagrass, 2 % rock&quot; width=&quot;880&quot; height=&quot;1912&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Lower Bay on Bequia over the next three days: 100, protected, with little swell at night. The bottom around it is mostly reef and coral, so look for the sand.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;For Lower Bay the answer is easy right now: the bay opens to the west and north, the wind and waves come from the east and southeast, and the score stays at 100 for all 72 hours. The seabed tells you the rest: about a quarter of the bottom nearby is sand, the rest mostly reef and coral. Worth knowing before the anchor goes down.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;everything-else-is-there-too&quot;&gt;Everything else is there too&lt;&#x2F;h2&gt;
+&lt;p&gt;The iPhone app is the full IncusGrid, with the same account as on the web and on Android. Your saved passages and bookmarks are on every device.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;one-place-one-card&#x2F;&quot;&gt;The spot report&lt;&#x2F;a&gt;:&lt;&#x2F;strong&gt; press and hold any place for wind, sea state, thunderstorms and the seabed of a month on one card.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;the-next-10-days&#x2F;&quot;&gt;The next 10 days&lt;&#x2F;a&gt;:&lt;&#x2F;strong&gt; wind, gusts and waves hour by hour on the map.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;collective-sailing-experience&#x2F;&quot;&gt;Sailing routes&lt;&#x2F;a&gt; and boat stays:&lt;&#x2F;strong&gt; where other crews actually sail, and where they stay.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;thunderstorm-risk&#x2F;&quot;&gt;Thunderstorm risk&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; down to single bays, and &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;sand-or-seagrass&#x2F;&quot;&gt;the seabed&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; along the coast.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Sign in with Apple, Google or your email address, or just look around without an account. On the iPad, the bigger screen makes planning a season from the saloon table a pleasure.&lt;&#x2F;p&gt;
+&lt;p&gt;Sailing with Android? Offline passages and anchorage protection are in the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.incusgrid.app&quot;&gt;Android app&lt;&#x2F;a&gt; as well.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;get-it-now&quot;&gt;Get it now&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;incusgrid&#x2F;id6823732960&quot;&gt;&lt;strong&gt;Download IncusGrid on the App Store →&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Thank you to everyone who kept asking. Try it on your next passage, and tell us what you think: we read every message, and much of what is in the app today started as one of them.&lt;&#x2F;p&gt;
+&lt;p&gt;Plan the season. Sail the day. ⛵️&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>More room on the map: one sheet for every layer</title>
           <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
