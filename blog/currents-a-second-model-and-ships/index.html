@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google Analytics, only with consent: the property of the landing page and the web app; filter by hostname
+       or app_surface. Same consent logic as apps/web/src/app.html and apps/landing-page/src/app.html; the banner
+       is static/cookie-banner.js. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    // Consent Mode v2, basic: everything denied until the visitor accepts; gtag.js is not even loaded before.
+    gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    gtag('js', new Date());
+    gtag('set', { app_surface: 'blog' });
+    (function () {
+      // The URL a visit arrived on (campaign parameters, gclid), so consent given later still credits the ad.
+      try { if (!sessionStorage.getItem('incus_landing')) sessionStorage.setItem('incus_landing', JSON.stringify({ url: location.href, referrer: document.referrer })); } catch (_) {}
+      var started = false;
+      // Called on load with a stored choice, and by the banner; the choice is incus_consent=1.<analytics>.<ads>.
+      window.startAnalytics = function (ads) {
+        gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: ads ? 'granted' : 'denied', ad_user_data: ads ? 'granted' : 'denied', ad_personalization: ads ? 'granted' : 'denied' });
+        if (started) return;
+        started = true;
+        var landing = null;
+        try { landing = JSON.parse(sessionStorage.getItem('incus_landing')); } catch (_) {}
+        gtag('config', 'G-7Q5WFSS215', landing && landing.url !== location.href ? { page_location: landing.url, page_referrer: landing.referrer } : {});
+        document.head.appendChild(Object.assign(document.createElement('script'), { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-7Q5WFSS215' }));
+      };
+      var stored = /(?:^|;\s*)incus_consent=1\.([01])\.([01])(?:;|$)/.exec(document.cookie);
+      if (stored && stored[1] === '1') startAnalytics(stored[2] === '1');
+      // After a withdrawal: the services may have rewritten their cookies while the page unloaded.
+      if (stored) {
+        var unwanted = new RegExp('^(' + (stored[1] === '0' ? '_ga|_ga_.*|' : '') + (stored[2] === '0' ? '_gcl_.*|_fbp|_fbc|' : '') + ')$');
+        document.cookie.split(';').forEach(function (part) {
+          var name = part.split('=')[0].trim();
+          if (!name || !unwanted.test(name)) return;
+          ['', '; domain=' + location.hostname, '; domain=.' + location.hostname, '; domain=incusgrid.com'].forEach(function (domain) {
+            document.cookie = name + '=; path=/; max-age=0' + domain;
+          });
+        });
+      }
+    })();
+  </script>
+  <script defer src="https://blog.incusgrid.com/cookie-banner.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f3eee3">
+  <!-- Safari on iPhone and iPad shows Apple's banner for the App Store app. -->
+  <meta name="apple-itunes-app" content="app-id=6823732960">
+  <title>What&#x27;s new in IncusGrid: tidal currents, ICON-EU, AIS ships and an hourly point forecast | IncusGrid</title>
+  <meta name="description" content="Tidal currents hour by hour, the ICON-EU model next to ECMWF, an hourly table for any point at sea, rain, AIS ships, fuel and shops near the harbour, and a smarter passage planner.">
+
+  <!-- Canonical URL -->
+  
+<link rel="canonical" href="https://blog.incusgrid.com/blog/currents-a-second-model-and-ships/" />
+
+
+  <!-- Open Graph / Social Media -->
+  
+
+
+
+
+
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.incusgrid.com/blog/currents-a-second-model-and-ships/" />
+<meta property="og:title" content="One week, many new things: currents, a second forecast model and ships on the map" />
+<meta property="og:description" content="Since the iPhone app came out a week ago, IncusGrid has learned the tides, a second forecast model for Europe, a table of the next hours for any point at sea, rain, ships, supply ashore and a lot more in the passage planner. Here is what&#x27;s new." />
+<meta property="og:image" content="https://blog.incusgrid.com/images/week-1113/og-week-1113.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="IncusGrid" />
+<meta property="og:locale" content="en_GB" />
+<meta property="article:published_time" content="2026-11-13" />
+<meta property="article:modified_time" content="2026-11-13" />
+
+<meta property="article:author" content="IncusGrid Team" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="One week, many new things: currents, a second forecast model and ships on the map" />
+<meta name="twitter:description" content="Since the iPhone app came out a week ago, IncusGrid has learned the tides, a second forecast model for Europe, a table of the next hours for any point at sea, rain, ships, supply ashore and a lot more in the passage planner. Here is what&#x27;s new." />
+<meta name="twitter:image" content="https://blog.incusgrid.com/images/week-1113/og-week-1113.jpg" />
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "One week, many new things: currents, a second forecast model and ships on the map",
+  "description": "Since the iPhone app came out a week ago, IncusGrid has learned the tides, a second forecast model for Europe, a table of the next hours for any point at sea, rain, ships, supply ashore and a lot more in the passage planner. Here is what's new.",
+  "image": ["https://blog.incusgrid.com/images/week-1113/cover-currents.webp","https://blog.incusgrid.com/images/week-1113/og-week-1113.jpg"],
+  "url": "https://blog.incusgrid.com/blog/currents-a-second-model-and-ships/",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Organization",
+    "name": "IncusGrid Team",
+    "url": "https://incusgrid.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "IncusGrid",
+    "url": "https://incusgrid.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://incusgrid.com/incusgrid_logo_transparent.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blog.incusgrid.com/blog/currents-a-second-model-and-ships/"
+  }
+}
+</script>
+
+
+  <!-- Fonts: the landing page's set -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://blog.incusgrid.com/main.css?h=bb95f3f4513e0ac359a3">
+
+  <!-- RSS -->
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://blog.incusgrid.com/rss.xml">
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="https://incusgrid.com" class="site-logo">
+        <img src="https://blog.incusgrid.com/incusgrid_logo_transparent.svg" alt="" class="site-logo-img" />
+        <span>Incus<span class="accent">Grid</span></span>
+      </a>
+      <nav class="site-nav">
+        <a href="https://blog.incusgrid.com" class="current">Blog</a>
+        <a href="https://incusgrid.com/pricing">Pricing</a>
+        <a href="https://incusgrid.com/support">Help</a>
+        <a href="https://app.incusgrid.com" class="nav-cta">Open the map</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+
+<article class="post">
+  <header class="post-header">
+    <a href="https://blog.incusgrid.com" class="mono-label back-link">&larr; All posts</a>
+    <p class="mono-label kicker">
+      <time datetime="2026-11-13">November 13, 2026</time>
+      · 10 min read
+    </p>
+    <h1 class="post-title">One week, many new things: currents, a second forecast model and ships on the map</h1>
+    
+    <p class="post-lead">Since the iPhone app came out a week ago, IncusGrid has learned the tides, a second forecast model for Europe, a table of the next hours for any point at sea, rain, ships, supply ashore and a lot more in the passage planner. Here is what&#x27;s new.</p>
+    
+  </header>
+
+  <figure class="post-cover">
+    
+    <div class="chart-frame"><img src="&#x2F;images&#x2F;week-1113&#x2F;cover-currents.webp" alt="The currents layer between Alderney and the Cotentin on Friday afternoon, the card of a point in the Alderney Race with the current for the next hours: 4.8 knots towards the southwest, turning to 4.1 knots towards the north by 10 pm" width="1800" height="1065" fetchpriority="high" /></div>
+    
+    <figcaption class="cover-caption">The Alderney Race on Friday afternoon: 4.8 knots towards the southwest at 4 pm, and the card already shows the tide turning by the evening.</figcaption>
+    
+    
+  </figure>
+
+  <div class="post-content">
+    <p>A week ago <a href="https://blog.incusgrid.com/blog/incusgrid-ios-app-launch/">IncusGrid arrived on the iPhone and iPad</a>. Since then a lot of you have tried it on your own passages, and many of you wrote to us. As always, much of what follows started as one of those messages. Thank you.</p>
+<p>It has been a busy week. Here is everything that is new, starting with what we are most excited about.</p>
+<h2 id="currents-with-the-tides">Currents, with the tides</h2>
+<p>The forecast now has a <strong>Currents</strong> layer: the surface current, including the tides, hour by hour for the coming days. Colours show how fast it runs, particles move with the stream, and if you prefer less motion on the screen, arrows point where it flows instead.</p>
+<p>Tap the sea, and the card shows the speed and direction for the next hours. Between Alderney and the Cotentin, you watch the tide turn: the stream builds to its strongest, slackens and runs the other way a few hours later. Pick the right hour, and the race carries you through instead of holding you up.</p>
+<p>The currents come from Copernicus Marine, on a grid of about 9 km, and reach right up to the coast. In narrow passages and races, the real stream can be much stronger than any model shows at that scale. So use the layer to see <em>when</em> the tide works for you and <em>where</em> it matters, not as a figure to navigate by.</p>
+
+<figure class="figure">
+  <a class="figure-link chart-frame" href="&#x2F;images&#x2F;week-1113&#x2F;currents-alderney.webp">
+    <img src="&#x2F;images&#x2F;week-1113&#x2F;currents-alderney.webp" alt="The currents between Alderney and the Cotentin with arrows: at 4 pm on Friday they point towards the southwest and west, at 10 pm towards the northeast and east" width="2220" height="715" loading="lazy" />
+  </a>
+  
+  <figcaption>The same water six hours apart, with arrows instead of particles: at 4 pm the stream runs southwest through the Alderney Race, at 10 pm it has turned and runs northeast.</figcaption>
+  
+</figure>
+<h2 id="a-second-forecast-model-for-europe-icon-eu">A second forecast model for Europe: ICON-EU</h2>
+<p>Until now, every forecast in IncusGrid came from ECMWF, the European centre's global model. For wind, gusts and rain you can now also choose <strong>ICON-EU</strong> from the German Weather Service (DWD).</p>
+<p>ICON-EU covers Europe and the Mediterranean on a finer grid, about 7 km. It is updated four times a day and reaches five days ahead. Near the coast, around islands and in the funnels between mountains, a finer grid often catches what a coarser one smooths away.</p>
+<p>Pick it with the <strong>Model</strong> button at the top of the map. A dashed line marks its area, and your choice stays while you move the map. When two models disagree, that is worth knowing too: switch between them for the same hour, and you see how sure the forecast really is.</p>
+<p>The passage planner calculates with the model you chose: wind and gusts from ICON-EU, waves and weather from ECMWF. You can also switch the model right in the planner, and the route is recalculated.</p>
+
+<figure class="figure">
+  <a class="figure-link chart-frame" href="&#x2F;images&#x2F;week-1113&#x2F;mistral-models.webp">
+    <img src="&#x2F;images&#x2F;week-1113&#x2F;mistral-models.webp" alt="The wind forecast for the Gulf of Lion on Friday at 7 pm, ECMWF on the left and ICON-EU on the right: the Mistral fans out from the Rhône delta towards the southeast, stronger and sharper in ICON-EU" width="2220" height="715" loading="lazy" />
+  </a>
+  
+  <figcaption>The Mistral on Friday evening at 7 pm, in ECMWF (left) and ICON-EU (right). Both see it, but ICON-EU has it stronger and narrower where it leaves the Rhône valley.</figcaption>
+  
+</figure>
+<h2 id="the-next-hours-of-any-point-at-sea">The next hours of any point at sea</h2>
+<p>Tap the sea in the forecast, and the card now shows <strong>a table of the next hours</strong>: wind, gusts, waves, sea state, rain, current and thunderstorm risk, one column per hour, with an arrow for every direction.</p>
+<p>The row of the layer on the map is coloured like the map, and its name stands in the card's title. Tap another row, and the map switches to that layer. Below the table, you see how often wind and sea are like this here in that month, so you know at once whether tomorrow is an ordinary day or an unusual one.</p>
+<p>The card opens at once and fills in hour by hour, also on a slow marina Wi-Fi. And the forecast's colours on the map are a little stronger now, so they read better in sunlight.</p>
+
+<figure class="figure figure--phone">
+  <a class="figure-link phone-frame" href="&#x2F;images&#x2F;week-1113&#x2F;hour-table-marseille.webp">
+    <img src="&#x2F;images&#x2F;week-1113&#x2F;hour-table-marseille.webp" alt="The point forecast off Marseille on a phone: wind 28 knots from the northwest falling to 21, gusts up to 39 knots, waves 2.6 metres, sea state rough to very rough, and below it: in November wind of 18 knots or more 44 % of the time here" width="880" height="1912" loading="lazy" />
+  </a>
+  
+  <figcaption>Off Marseille on Friday afternoon: the Mistral at 28 knots with gusts to 39, easing by the evening. Below the table, how often November is like this here.</figcaption>
+  
+</figure>
+<h2 id="rain">Rain</h2>
+<p>A new <strong>Rain</strong> layer shows where and how hard it rains, hour by hour for the coming days. Tap the map for the rain rate at a point. Together with thunderstorm risk, it answers the question every watch plan asks: will the night be wet?</p>
+<h2 id="ships-on-the-map">Ships on the map</h2>
+<p>Turn on <strong>Ships</strong> in the layer menu, and you see ships all over the map, wherever their AIS is received, about 5 to 15 minutes old. Ships under way are pointed, ships lying still are a diamond, and ships that have gone quiet fade out. Show every class, or only some, from sailing boats to tankers.</p>
+<p>Find a ship by name or MMSI in the search, and keep it in your bookmarks: then you see it at every zoom, for example a friend's boat on its way across.</p>
+
+<figure class="figure">
+  <a class="figure-link chart-frame" href="&#x2F;images&#x2F;week-1113&#x2F;ships.webp">
+    <img src="&#x2F;images&#x2F;week-1113&#x2F;ships.webp" alt="Ships in the Strait of Gibraltar from AIS: pointed symbols for ships under way through the strait, diamonds for ships at anchor off Gibraltar and Algeciras, coloured by class" width="1600" height="947" loading="lazy" />
+  </a>
+  
+  <figcaption>The Strait of Gibraltar on Friday afternoon: ships under way through the strait, and the anchorages off Gibraltar and Algeciras full of ships lying still.</figcaption>
+  
+</figure>
+<h2 id="my-voyage-where-your-own-boat-has-sailed">My voyage: where your own boat has sailed</h2>
+<p>Tap <strong>This is my boat</strong> on your boat's card, or enter its MMSI in the settings. With a plan or a trial, IncusGrid then records from AIS where your boat sails: the line of your passages and the places where you stayed.</p>
+<p>In the <strong>My voyage</strong> filter you choose the period, from the last 24 hours to all of it, and see the distance, the time under way and your stops. Your own boat shows at every zoom with a ring of its own.</p>
+<h2 id="supply-ashore">Supply ashore</h2>
+<p>Turn on <strong>Supply</strong> to see where to refuel, shop and eat near the harbour. Marine fuel and chandlers appear from zoom 8, so you can plan the fuel stop of a longer passage. Fuel stations, supermarkets and restaurants appear once you zoom in. A tap on a symbol shows its name and, where known, its opening hours and fuels.</p>
+<p>Filters now sit right at the map: berth types, ship classes and supply each have their own chip at the top left, and the layer menu keeps one switch per extra.</p>
+<h2 id="a-smarter-passage-planner">A smarter passage planner</h2>
+<p>The planner got many small improvements this week, and a few big ones.</p>
+<p><strong>Tap the route.</strong> A tap on a planned route now asks what you want: jump to the hour you pass that spot, see the weather there, or add a waypoint.</p>
+<p><strong>No more accidental drags.</strong> On phones and tablets, points move only after a long press, so a quick touch on the map no longer shifts your start or a waypoint by mistake.</p>
+<p><strong>Clear about waiting.</strong> If the boat would have to wait on the way for the gusts or the wind to ease, the route no longer zigzags to kill time. It ends where the boat gets no further, a red mark says why, and the planner suggests the earliest departure that does not need to wait.</p>
+<p><strong>A waypoint at every course change.</strong> Every leg now has exactly one course, also in the GPX for your plotter. Out of and into a harbour, the route runs straight to the first waypoint at sea; drag it to lay out the harbour exit yourself.</p>
+<p><strong>Shared passages bring the boat along.</strong> A passage link now carries the polar and settings of the boat it was planned with. Whoever opens it sees both boats on the map and compares arrival, duration and time under motor in one table. Your own boat's settings stay as they are.</p>
+<p><strong>Isochrones you can read.</strong> Turn on <strong>Show isochrones</strong>, and the planner draws how far the boat gets every three hours. The lines now stand out clearly on the forecast's colours, and every second one, six hours apart, is thicker. So you see at a glance where you will be at dusk, at midnight or at dawn, and where the lines crowd together because the wind drops.</p>
+
+<figure class="figure">
+  <a class="figure-link chart-frame" href="&#x2F;images&#x2F;week-1113&#x2F;isochrones.webp">
+    <img src="&#x2F;images&#x2F;week-1113&#x2F;isochrones.webp" alt="The passage from Las Palmas to La Gomera in the planner, with the isochrones of the route on the wind forecast: lines every three hours spreading west from Gran Canaria, the route reaching and running in the trade wind to San Sebastián de La Gomera" width="1600" height="947" loading="lazy" />
+  </a>
+  
+  <figcaption>Las Palmas to La Gomera on Saturday: 98 nautical miles in 18 hours, almost all of it under sail in the trade wind. The isochrones show how far the boat gets every three hours.</figcaption>
+  
+</figure>
+<h2 id="your-saved-passages-on-the-map">Your saved passages on the map</h2>
+<p>Planning a season, not just a passage? Your saved passages can now be shown on the map, all at once. In your bookmarks, the eye next to a passage shows or hides it, and <strong>Show all</strong> and <strong>None</strong> switch them all.</p>
+<p>Each passage is a thin line with a green start, a red destination and its length in nautical miles. A passage without waypoints yet is dashed, as a reminder that it is a straight line and not a route. Tap a line to open that passage in the planner. Which passages you show is kept on each device, and new ones start hidden, so the map stays tidy.</p>
+
+<figure class="figure">
+  <a class="figure-link chart-frame" href="&#x2F;images&#x2F;week-1113&#x2F;saved.webp">
+    <img src="&#x2F;images&#x2F;week-1113&#x2F;saved.webp" alt="Four saved passages in the Cyclades on the map: Lavrio to Kea, 18 nm, Kea to Syros, 44 nm, Syros to Mykonos, 18 nm and dashed because it has no waypoints yet, and Mykonos to Naxos, 21 nm" width="1600" height="947" loading="lazy" />
+  </a>
+  
+  <figcaption>A week in the Cyclades as four saved passages: Lavrio, Kea, Syros, Mykonos and Naxos. Syros to Mykonos has no waypoints yet, so it is dashed.</figcaption>
+  
+</figure>
+<p>On phones, the bookmark in the search bar now opens your bookmarks directly.</p>
+<h2 id="every-card-has-its-own-address">Every card has its own address</h2>
+<p>The address bar now follows what you have open: an anchorage, a marina, a sailing route, a ship, a point, a passage or a help page, together with the view, the layer and the month or hour. Copy it, bookmark it or send it to your crew, and it opens the same card with the same view. In chats and posts, the link's preview shows the place's name, and older links keep working.</p>
+<p>For example, <a rel="external" href="https://app.incusgrid.com/anchorage/punta-di-rondinara-b-adbee535da?view=forecast">Punta di Rondinara on the forecast</a>.</p>
+<h2 id="try-it">Try it</h2>
+<p>Everything above is in the web app now. The latest <a rel="external" href="https://play.google.com/store/apps/details?id=com.incusgrid.app">Android app</a> has all of it but the two newest things, the clearer isochrones and saved passages on the map, which follow with its next update. The update for <a rel="external" href="https://apps.apple.com/app/incusgrid/id6823732960">iPhone and iPad</a> is with Apple for review.</p>
+<p>Open the forecast, turn on Currents and tap the sea somewhere you will sail next. Then tell us what you think. We read every message, and as you can see, a lot of it ends up in the app within days.</p>
+<p>Plan the season. Sail the day. ⛵️</p>
+<p><a rel="external" href="https://app.incusgrid.com/?view=forecast&amp;layer=currents">Open the map →</a></p>
+
+  </div>
+</article>
+
+
+
+
+<aside class="more-posts" aria-labelledby="more-posts-title">
+  <h2 class="mono-label more-posts-title" id="more-posts-title">More from the blog</h2>
+  <div class="post-list">
+    
+    
+    
+    
+    
+    
+
+<article class="post-card">
+  
+  <a class="post-card-cover" href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;incusgrid-ios-app-launch&#x2F;" tabindex="-1" aria-hidden="true">
+    
+    <img src="&#x2F;images&#x2F;ios-launch&#x2F;cover-ios.webp" alt="" width="1800" height="1000" loading="lazy" />
+  </a>
+  
+  <div class="post-card-body">
+    <p class="mono-label post-card-meta">
+      <time datetime="2026-11-06">Nov 06, 2026</time>
+      · 8 min read
+    </p>
+    <h2 class="post-card-title"><a href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;incusgrid-ios-app-launch&#x2F;">It&#x27;s here: IncusGrid for iPhone and iPad</a></h2>
+    
+    <p class="post-card-excerpt">The app you asked for most is in the App Store. Weather routing that keeps working offline, a protection score that tells you three days ahead whether you&#x27;ll sleep or roll all night, sailing routes and their seasonality from years of recorded boat movements, and much more you haven&#x27;t seen in any other sailing app.</p>
+    
+  </div>
+</article>
+
+    
+    
+    
+    
+    
+
+<article class="post-card">
+  
+  <a class="post-card-cover" href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;more-room-on-the-map&#x2F;" tabindex="-1" aria-hidden="true">
+    
+    <img src="&#x2F;images&#x2F;layer-sheet&#x2F;thunder.webp" alt="" width="1800" height="959" loading="lazy" />
+  </a>
+  
+  <div class="post-card-body">
+    <p class="mono-label post-card-meta">
+      <time datetime="2026-11-04">Nov 04, 2026</time>
+      · 8 min read
+    </p>
+    <h2 class="post-card-title"><a href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;more-room-on-the-map&#x2F;">More room on the map: one sheet for every layer</a></h2>
+    
+    <p class="post-card-excerpt">IncusGrid has grown fast this autumn, and many new features have come with it. To fit them in well, and to make room for what we still want to build, we rethought how the map works. Here is the new layout, and what it makes possible.</p>
+    
+  </div>
+</article>
+
+    
+    
+    
+    
+    
+
+<article class="post-card">
+  
+  <a class="post-card-cover" href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;weather-routing-in-incusgrid&#x2F;" tabindex="-1" aria-hidden="true">
+    
+    <img src="&#x2F;images&#x2F;passage-planner&#x2F;cover-leros-rhodes.webp" alt="" width="1800" height="959" loading="lazy" />
+  </a>
+  
+  <div class="post-card-body">
+    <p class="mono-label post-card-meta">
+      <time datetime="2026-10-30">Oct 30, 2026</time>
+      · 8 min read
+    </p>
+    <h2 class="post-card-title"><a href="https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;weather-routing-in-incusgrid&#x2F;">From two clicks to a passage plan: weather routing in IncusGrid</a></h2>
+    
+    <p class="post-card-excerpt">IncusGrid now plans passages on the 10-day forecast. Set a start and a destination, and the planner calculates a fast route for your boat: arrival time, strongest wind, hours under sail and under motor, and departure times to compare.</p>
+    
+  </div>
+</article>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+<dialog class="lightbox" id="lightbox" aria-label="Enlarged image">
+  <img alt="" />
+  <p></p>
+</dialog>
+<script>
+  (() => {
+    const box = document.getElementById('lightbox');
+    const img = box.querySelector('img');
+    const caption = box.querySelector('p');
+    document.querySelectorAll('.figure-link').forEach(link => link.addEventListener('click', event => {
+      // Keep "open in new tab" with modifier keys.
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      img.src = link.href;
+      img.alt = link.querySelector('img').alt;
+      caption.textContent = link.closest('figure').querySelector('figcaption')?.textContent ?? '';
+      box.showModal();
+    }));
+    box.addEventListener('click', () => box.close());
+    box.addEventListener('close', () => img.removeAttribute('src'));
+  })();
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-links">
+      <a href="https://incusgrid.com">IncusGrid</a>
+      <a href="https://incusgrid.com/pricing">Pricing</a>
+      <a href="https://blog.incusgrid.com/rss.xml">RSS</a>
+      <a href="https://incusgrid.com/legal-notice">Legal notice</a>
+      <a href="https://incusgrid.com/privacy-policy">Privacy</a>
+      <a href="https://incusgrid.com/cookie-settings">Cookie settings</a>
+      <a href="https://incusgrid.com/support">Support</a>
+    </nav>
+    <nav class="footer-social mono-label" aria-label="IncusGrid elsewhere">
+      <a href="https://www.instagram.com/incusgrid/" rel="me noopener" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/incusgrid/" rel="me noopener" target="_blank">Facebook</a>
+      <a href="https://play.google.com/store/apps/details?id=com.incusgrid.app" rel="noopener" target="_blank">Google Play</a>
+      <a href="https://apps.apple.com/app/incusgrid/id6823732960" rel="noopener" target="_blank">App Store</a>
+    </nav>
+    <p class="mono-label">&copy; 2026 IncusGrid</p>
+  </footer>
+</body>
+</html>

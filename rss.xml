@@ -7,7 +7,115 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>One week, many new things: currents, a second forecast model and ships on the map</title>
+          <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/currents-a-second-model-and-ships/</link>
+          <guid>https://blog.incusgrid.com/blog/currents-a-second-model-and-ships/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/currents-a-second-model-and-ships/">&lt;p&gt;A week ago &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;incusgrid-ios-app-launch&#x2F;&quot;&gt;IncusGrid arrived on the iPhone and iPad&lt;&#x2F;a&gt;. Since then a lot of you have tried it on your own passages, and many of you wrote to us. As always, much of what follows started as one of those messages. Thank you.&lt;&#x2F;p&gt;
+&lt;p&gt;It has been a busy week. Here is everything that is new, starting with what we are most excited about.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;currents-with-the-tides&quot;&gt;Currents, with the tides&lt;&#x2F;h2&gt;
+&lt;p&gt;The forecast now has a &lt;strong&gt;Currents&lt;&#x2F;strong&gt; layer: the surface current, including the tides, hour by hour for the coming days. Colours show how fast it runs, particles move with the stream, and if you prefer less motion on the screen, arrows point where it flows instead.&lt;&#x2F;p&gt;
+&lt;p&gt;Tap the sea, and the card shows the speed and direction for the next hours. Between Alderney and the Cotentin, you watch the tide turn: the stream builds to its strongest, slackens and runs the other way a few hours later. Pick the right hour, and the race carries you through instead of holding you up.&lt;&#x2F;p&gt;
+&lt;p&gt;The currents come from Copernicus Marine, on a grid of about 9 km, and reach right up to the coast. In narrow passages and races, the real stream can be much stronger than any model shows at that scale. So use the layer to see &lt;em&gt;when&lt;&#x2F;em&gt; the tide works for you and &lt;em&gt;where&lt;&#x2F;em&gt; it matters, not as a figure to navigate by.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;currents-alderney.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;currents-alderney.webp&quot; alt=&quot;The currents between Alderney and the Cotentin with arrows: at 4 pm on Friday they point towards the southwest and west, at 10 pm towards the northeast and east&quot; width=&quot;2220&quot; height=&quot;715&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The same water six hours apart, with arrows instead of particles: at 4 pm the stream runs southwest through the Alderney Race, at 10 pm it has turned and runs northeast.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;a-second-forecast-model-for-europe-icon-eu&quot;&gt;A second forecast model for Europe: ICON-EU&lt;&#x2F;h2&gt;
+&lt;p&gt;Until now, every forecast in IncusGrid came from ECMWF, the European centre&#x27;s global model. For wind, gusts and rain you can now also choose &lt;strong&gt;ICON-EU&lt;&#x2F;strong&gt; from the German Weather Service (DWD).&lt;&#x2F;p&gt;
+&lt;p&gt;ICON-EU covers Europe and the Mediterranean on a finer grid, about 7 km. It is updated four times a day and reaches five days ahead. Near the coast, around islands and in the funnels between mountains, a finer grid often catches what a coarser one smooths away.&lt;&#x2F;p&gt;
+&lt;p&gt;Pick it with the &lt;strong&gt;Model&lt;&#x2F;strong&gt; button at the top of the map. A dashed line marks its area, and your choice stays while you move the map. When two models disagree, that is worth knowing too: switch between them for the same hour, and you see how sure the forecast really is.&lt;&#x2F;p&gt;
+&lt;p&gt;The passage planner calculates with the model you chose: wind and gusts from ICON-EU, waves and weather from ECMWF. You can also switch the model right in the planner, and the route is recalculated.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;mistral-models.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;mistral-models.webp&quot; alt=&quot;The wind forecast for the Gulf of Lion on Friday at 7 pm, ECMWF on the left and ICON-EU on the right: the Mistral fans out from the Rhône delta towards the southeast, stronger and sharper in ICON-EU&quot; width=&quot;2220&quot; height=&quot;715&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The Mistral on Friday evening at 7 pm, in ECMWF (left) and ICON-EU (right). Both see it, but ICON-EU has it stronger and narrower where it leaves the Rhône valley.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;the-next-hours-of-any-point-at-sea&quot;&gt;The next hours of any point at sea&lt;&#x2F;h2&gt;
+&lt;p&gt;Tap the sea in the forecast, and the card now shows &lt;strong&gt;a table of the next hours&lt;&#x2F;strong&gt;: wind, gusts, waves, sea state, rain, current and thunderstorm risk, one column per hour, with an arrow for every direction.&lt;&#x2F;p&gt;
+&lt;p&gt;The row of the layer on the map is coloured like the map, and its name stands in the card&#x27;s title. Tap another row, and the map switches to that layer. Below the table, you see how often wind and sea are like this here in that month, so you know at once whether tomorrow is an ordinary day or an unusual one.&lt;&#x2F;p&gt;
+&lt;p&gt;The card opens at once and fills in hour by hour, also on a slow marina Wi-Fi. And the forecast&#x27;s colours on the map are a little stronger now, so they read better in sunlight.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--phone&quot;&gt;
+  &lt;a class=&quot;figure-link phone-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;hour-table-marseille.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;hour-table-marseille.webp&quot; alt=&quot;The point forecast off Marseille on a phone: wind 28 knots from the northwest falling to 21, gusts up to 39 knots, waves 2.6 metres, sea state rough to very rough, and below it: in November wind of 18 knots or more 44 % of the time here&quot; width=&quot;880&quot; height=&quot;1912&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Off Marseille on Friday afternoon: the Mistral at 28 knots with gusts to 39, easing by the evening. Below the table, how often November is like this here.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;rain&quot;&gt;Rain&lt;&#x2F;h2&gt;
+&lt;p&gt;A new &lt;strong&gt;Rain&lt;&#x2F;strong&gt; layer shows where and how hard it rains, hour by hour for the coming days. Tap the map for the rain rate at a point. Together with thunderstorm risk, it answers the question every watch plan asks: will the night be wet?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ships-on-the-map&quot;&gt;Ships on the map&lt;&#x2F;h2&gt;
+&lt;p&gt;Turn on &lt;strong&gt;Ships&lt;&#x2F;strong&gt; in the layer menu, and you see ships all over the map, wherever their AIS is received, about 5 to 15 minutes old. Ships under way are pointed, ships lying still are a diamond, and ships that have gone quiet fade out. Show every class, or only some, from sailing boats to tankers.&lt;&#x2F;p&gt;
+&lt;p&gt;Find a ship by name or MMSI in the search, and keep it in your bookmarks: then you see it at every zoom, for example a friend&#x27;s boat on its way across.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;ships.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;ships.webp&quot; alt=&quot;Ships in the Strait of Gibraltar from AIS: pointed symbols for ships under way through the strait, diamonds for ships at anchor off Gibraltar and Algeciras, coloured by class&quot; width=&quot;1600&quot; height=&quot;947&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The Strait of Gibraltar on Friday afternoon: ships under way through the strait, and the anchorages off Gibraltar and Algeciras full of ships lying still.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;my-voyage-where-your-own-boat-has-sailed&quot;&gt;My voyage: where your own boat has sailed&lt;&#x2F;h2&gt;
+&lt;p&gt;Tap &lt;strong&gt;This is my boat&lt;&#x2F;strong&gt; on your boat&#x27;s card, or enter its MMSI in the settings. With a plan or a trial, IncusGrid then records from AIS where your boat sails: the line of your passages and the places where you stayed.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;My voyage&lt;&#x2F;strong&gt; filter you choose the period, from the last 24 hours to all of it, and see the distance, the time under way and your stops. Your own boat shows at every zoom with a ring of its own.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;supply-ashore&quot;&gt;Supply ashore&lt;&#x2F;h2&gt;
+&lt;p&gt;Turn on &lt;strong&gt;Supply&lt;&#x2F;strong&gt; to see where to refuel, shop and eat near the harbour. Marine fuel and chandlers appear from zoom 8, so you can plan the fuel stop of a longer passage. Fuel stations, supermarkets and restaurants appear once you zoom in. A tap on a symbol shows its name and, where known, its opening hours and fuels.&lt;&#x2F;p&gt;
+&lt;p&gt;Filters now sit right at the map: berth types, ship classes and supply each have their own chip at the top left, and the layer menu keeps one switch per extra.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;a-smarter-passage-planner&quot;&gt;A smarter passage planner&lt;&#x2F;h2&gt;
+&lt;p&gt;The planner got many small improvements this week, and a few big ones.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Tap the route.&lt;&#x2F;strong&gt; A tap on a planned route now asks what you want: jump to the hour you pass that spot, see the weather there, or add a waypoint.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;No more accidental drags.&lt;&#x2F;strong&gt; On phones and tablets, points move only after a long press, so a quick touch on the map no longer shifts your start or a waypoint by mistake.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Clear about waiting.&lt;&#x2F;strong&gt; If the boat would have to wait on the way for the gusts or the wind to ease, the route no longer zigzags to kill time. It ends where the boat gets no further, a red mark says why, and the planner suggests the earliest departure that does not need to wait.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;A waypoint at every course change.&lt;&#x2F;strong&gt; Every leg now has exactly one course, also in the GPX for your plotter. Out of and into a harbour, the route runs straight to the first waypoint at sea; drag it to lay out the harbour exit yourself.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Shared passages bring the boat along.&lt;&#x2F;strong&gt; A passage link now carries the polar and settings of the boat it was planned with. Whoever opens it sees both boats on the map and compares arrival, duration and time under motor in one table. Your own boat&#x27;s settings stay as they are.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Isochrones you can read.&lt;&#x2F;strong&gt; Turn on &lt;strong&gt;Show isochrones&lt;&#x2F;strong&gt;, and the planner draws how far the boat gets every three hours. The lines now stand out clearly on the forecast&#x27;s colours, and every second one, six hours apart, is thicker. So you see at a glance where you will be at dusk, at midnight or at dawn, and where the lines crowd together because the wind drops.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;isochrones.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;isochrones.webp&quot; alt=&quot;The passage from Las Palmas to La Gomera in the planner, with the isochrones of the route on the wind forecast: lines every three hours spreading west from Gran Canaria, the route reaching and running in the trade wind to San Sebastián de La Gomera&quot; width=&quot;1600&quot; height=&quot;947&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Las Palmas to La Gomera on Saturday: 98 nautical miles in 18 hours, almost all of it under sail in the trade wind. The isochrones show how far the boat gets every three hours.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;your-saved-passages-on-the-map&quot;&gt;Your saved passages on the map&lt;&#x2F;h2&gt;
+&lt;p&gt;Planning a season, not just a passage? Your saved passages can now be shown on the map, all at once. In your bookmarks, the eye next to a passage shows or hides it, and &lt;strong&gt;Show all&lt;&#x2F;strong&gt; and &lt;strong&gt;None&lt;&#x2F;strong&gt; switch them all.&lt;&#x2F;p&gt;
+&lt;p&gt;Each passage is a thin line with a green start, a red destination and its length in nautical miles. A passage without waypoints yet is dashed, as a reminder that it is a straight line and not a route. Tap a line to open that passage in the planner. Which passages you show is kept on each device, and new ones start hidden, so the map stays tidy.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;saved.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1113&amp;#x2F;saved.webp&quot; alt=&quot;Four saved passages in the Cyclades on the map: Lavrio to Kea, 18 nm, Kea to Syros, 44 nm, Syros to Mykonos, 18 nm and dashed because it has no waypoints yet, and Mykonos to Naxos, 21 nm&quot; width=&quot;1600&quot; height=&quot;947&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;A week in the Cyclades as four saved passages: Lavrio, Kea, Syros, Mykonos and Naxos. Syros to Mykonos has no waypoints yet, so it is dashed.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;On phones, the bookmark in the search bar now opens your bookmarks directly.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;every-card-has-its-own-address&quot;&gt;Every card has its own address&lt;&#x2F;h2&gt;
+&lt;p&gt;The address bar now follows what you have open: an anchorage, a marina, a sailing route, a ship, a point, a passage or a help page, together with the view, the layer and the month or hour. Copy it, bookmark it or send it to your crew, and it opens the same card with the same view. In chats and posts, the link&#x27;s preview shows the place&#x27;s name, and older links keep working.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;anchorage&#x2F;punta-di-rondinara-b-adbee535da?view=forecast&quot;&gt;Punta di Rondinara on the forecast&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;try-it&quot;&gt;Try it&lt;&#x2F;h2&gt;
+&lt;p&gt;Everything above is in the web app now. The latest &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.incusgrid.app&quot;&gt;Android app&lt;&#x2F;a&gt; has all of it but the two newest things, the clearer isochrones and saved passages on the map, which follow with its next update. The update for &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;incusgrid&#x2F;id6823732960&quot;&gt;iPhone and iPad&lt;&#x2F;a&gt; is with Apple for review.&lt;&#x2F;p&gt;
+&lt;p&gt;Open the forecast, turn on Currents and tap the sea somewhere you will sail next. Then tell us what you think. We read every message, and as you can see, a lot of it ends up in the app within days.&lt;&#x2F;p&gt;
+&lt;p&gt;Plan the season. Sail the day. ⛵️&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;?view=forecast&amp;amp;layer=currents&quot;&gt;Open the map →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>It&#x27;s here: IncusGrid for iPhone and iPad</title>
           <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
