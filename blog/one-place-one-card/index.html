@@ -30,7 +30,7 @@
       if (stored && stored[1] === '1') startAnalytics(stored[2] === '1');
       // After a withdrawal: the services may have rewritten their cookies while the page unloaded.
       if (stored) {
-        var unwanted = new RegExp('^(' + (stored[1] === '0' ? '_ga|_ga_.*|' : '') + (stored[2] === '0' ? '_gcl_.*|_fbp|_fbc|' : '') + ')$');
+        var unwanted = new RegExp('^(' + (stored[1] === '0' ? '_ga|_ga_.*|incus_first_touch|' : '') + (stored[2] === '0' ? '_gcl_.*|_fbp|_fbc|' : '') + ')$');
         document.cookie.split(';').forEach(function (part) {
           var name = part.split('=')[0].trim();
           if (!name || !unwanted.test(name)) return;
