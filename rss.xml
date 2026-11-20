@@ -7,7 +7,130 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Beyond the weather: tides, depths and the water you sail in</title>
+          <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/tides-three-models-and-a-chart/</link>
+          <guid>https://blog.incusgrid.com/blog/tides-three-models-and-a-chart/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/tides-three-models-and-a-chart/">&lt;p&gt;A week ago &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;currents-a-second-model-and-ships&#x2F;&quot;&gt;the tide came in&lt;&#x2F;a&gt;: currents on the map, ICON-EU next to ECMWF, and ships around you. Many of you wrote back, and most of it was the same question: &lt;em&gt;now that I can see the stream, can IncusGrid plan with it?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It can. Here is everything that is new this week.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tides-at-any-point-and-at-every-harbour&quot;&gt;Tides at any point and at every harbour&lt;&#x2F;h2&gt;
+&lt;p&gt;Tap any point at sea in the forecast, and its card now has a &lt;strong&gt;Tide&lt;&#x2F;strong&gt; tab next to the forecast. It tells you whether the water is rising or falling, when the next high and low water come, the day&#x27;s tidal range with spring or neap, and the curve of the whole day. Step through the days, up to a month ahead. Times are in the place&#x27;s own time zone, heights above chart datum.&lt;&#x2F;p&gt;
+&lt;p&gt;Anchorages, mooring fields and harbours have the same tab. So when you pick tonight&#x27;s anchorage, you also see how much water you will have under the keel at low tide in the early morning.&lt;&#x2F;p&gt;
+&lt;p&gt;In the hourly table of the forecast, a new row shows the tide hour by hour. Tap it, and the Tide tab opens at that hour.&lt;&#x2F;p&gt;
+&lt;p&gt;The tides are computed from the FES2022 tide model.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--phone&quot;&gt;
+  &lt;a class=&quot;figure-link phone-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;tide-glenan.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;tide-glenan.webp&quot; alt=&quot;The Tide tab of a point off the Glénan islands on a phone: falling, 3.9 m, low water in 6 h 22 min, the day&amp;#x27;s curve with high waters at 00:35 and 12:54 and low waters at 06:49 and 19:20, range 2.5 m, neap tide&quot; width=&quot;880&quot; height=&quot;1912&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Off the Glénan islands in South Brittany on Friday: the tide is falling, low water comes at 19:20, and the range of 2.5 metres is a neap tide.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;the-planner-sails-with-the-current&quot;&gt;The planner sails with the current&lt;&#x2F;h2&gt;
+&lt;p&gt;Weather routing now includes the surface current with the tides. The planner holds its course in a cross current, times the passage with the tide and shows, hour by hour, the speed over ground and the current. At the end, you see how many miles the current gained or lost you.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Compare departures&lt;&#x2F;strong&gt; now also finds the departure with the fair stream. Leave an hour later, and the race may carry you through instead of holding you back. If a foul current is stronger than what the boat makes upwind, the planner says so instead of letting the boat drift backwards, and suggests leaving with the turn of the tide.&lt;&#x2F;p&gt;
+&lt;p&gt;Want to see the difference? Choose &lt;strong&gt;Ignore&lt;&#x2F;strong&gt; at &lt;strong&gt;Currents&lt;&#x2F;strong&gt; in the planner, and compare. Offline passages carry the currents too.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;departures-alderney.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;departures-alderney.webp&quot; alt=&quot;The planner&amp;#x27;s summary of Cherbourg to St Peter Port for two departures on Saturday: leaving at 4 pm, 42 nm in 7 hours with 3.8 nm lost to the current; leaving at 8 pm, 43 nm in 5 hours with 8.2 nm gained&quot; width=&quot;1620&quot; height=&quot;384&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Cherbourg to St Peter Port on Saturday, four hours apart: leave at 4 pm and the stream through the Alderney Race costs you 3.8 miles and two hours; leave at 8 pm and it gives you 8.2 miles.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;a-third-forecast-model-worldwide-gfs&quot;&gt;A third forecast model, worldwide: GFS&lt;&#x2F;h2&gt;
+&lt;p&gt;Next to ECMWF and ICON-EU, you can now choose &lt;strong&gt;GFS&lt;&#x2F;strong&gt; from the US weather service (NOAA) with the &lt;strong&gt;Model&lt;&#x2F;strong&gt; button. GFS covers the whole world for wind, gusts, waves, rain and thunderstorm risk.&lt;&#x2F;p&gt;
+&lt;p&gt;The passage planner calculates with it too, and you can switch models right in the planner to compare routes. Three models do not always agree, and that is the point: when ECMWF, ICON-EU and GFS see the same gale, you can trust it more. When they disagree, you know the forecast is uncertain, and you plan with more margin.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;models-ecmwf-gfs.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;models-ecmwf-gfs.webp&quot; alt=&quot;The wind forecast for western Europe on Tuesday at 1 am, ECMWF on the left and GFS on the right: in ECMWF a band of stronger wind lies over Brittany and the Bay of Biscay, in GFS it is still further west, off Galicia&quot; width=&quot;2220&quot; height=&quot;752&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The same hour four days ahead, Tuesday at 1 am, in ECMWF (left) and GFS (right). ECMWF has the front already over Brittany and the Bay of Biscay, GFS still further west, off Galicia. When the models disagree like this, plan with margin.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;a-nautical-chart-over-any-map&quot;&gt;A nautical chart over any map&lt;&#x2F;h2&gt;
+&lt;p&gt;The layer menu has a new switch, &lt;strong&gt;Nautical chart&lt;&#x2F;strong&gt;. Its chip turns each part on or off:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Depth&lt;&#x2F;strong&gt;: in bands over the Plain map, as depth lines over the others. Tap the sea for the depth at that point.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Seamarks&lt;&#x2F;strong&gt;: buoys, beacons and lights with their characteristic, such as Fl(2)R.6s, and traffic separation schemes, worldwide from OpenStreetMap.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Grid&lt;&#x2F;strong&gt;: parallels and meridians, labelled in degrees and minutes at the map&#x27;s edges.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The depths come from surveyed grids that cover every sea: EMODnet in European waters, the Canary Islands and the eastern Caribbean, GEBCO everywhere else. Close to the shore, where these grids are coarse, we add our own depths: &lt;strong&gt;IncusGrid SDB&lt;&#x2F;strong&gt;, measured from satellite images.&lt;&#x2F;p&gt;
+&lt;p&gt;SDB stands for &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Satellite-derived_bathymetry&quot;&gt;satellite-derived bathymetry&lt;&#x2F;a&gt;. In clear, shallow water, sunlight reaches the seabed, and the colour of the water shows how deep it is: the deeper, the less light comes back, red fading first, blue last. We teach a model to read that colour from Sentinel-2 images, using the depths that NASA&#x27;s ICESat-2 satellite has measured with its laser as the answers to learn from. The result has a cell of 10 metres instead of a hundred or more, down to about 20 metres in clear water.&lt;&#x2F;p&gt;
+&lt;p&gt;That is exactly the water you anchor in, and it is what we like most about it. Until now, picking an anchorage usually meant jumping back and forth: read about a bay in your favourite app, then check every single one on the chart plotter to see whether there is any room to anchor. Where IncusGrid SDB covers the coast, the depth lines are detailed enough to show at a glance how a bay is shaped. Does the bottom drop off steeply right behind the beach, so you would end up in 15 metres close to the rocks? Or is there a wide shelf at 5 to 10 metres with room to swing? You see it right on the map, around the anchorage whose card already tells you the seabed and the protection.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;bays-cala-dor.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;bays-cala-dor.webp&quot; alt=&quot;The nautical chart on the east coast of Mallorca between Cala Mondragó and Cala d&amp;#x27;Or with anchorages: Porto Petro and Cala d&amp;#x27;Or with shallow water of under 5 m deep inside, the 10 m line close to the coast and a wide shelf between 10 and 20 m further out&quot; width=&quot;1600&quot; height=&quot;1000&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The east coast of Mallorca around Porto Petro and Cala d&amp;#x27;Or: at a glance you see which coves are shallow inside and where the bottom drops away.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Elsewhere, the lines come from EMODnet or GEBCO alone, and how much detail they show depends on the region: in some places the surveys reach close to the shore, in others a bay is just one coarse cell. IncusGrid SDB already covers the whole Mediterranean, Brittany, the Algarve and the Canary Islands, and step by step we are bringing the rest of the world&#x27;s coasts to the same level of detail. Tap the sea, and the card tells you the depth and which source it comes from.&lt;&#x2F;p&gt;
+&lt;p&gt;Turn the chart on over the forecast, and you see wind and waves together with the depths and the marks: where it gets shallow, where the channel runs, which light marks the entrance. It is not an official chart and not for navigation, but it puts the weather and the water you sail in into one picture.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;chart-palma.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;chart-palma.webp&quot; alt=&quot;The nautical chart over the plain map at Palma de Mallorca: depth bands in blue with lines at 2, 5, 10 and 30 m, the harbour&amp;#x27;s lights and buoys, one labelled Fl(2)15s, and a grid labelled in degrees and minutes at the edges&quot; width=&quot;1600&quot; height=&quot;1000&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The Bay of Palma with the nautical chart on: depth bands and lines, the lights of the harbour with their characteristics, and the grid in degrees and minutes at the edges.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;the-sea-state-from-0-to-10-and-a-limit-for-your-boat&quot;&gt;The sea state from 0 to 10, and a limit for your boat&lt;&#x2F;h2&gt;
+&lt;p&gt;The forecast&#x27;s sea state is now a number from 0 to 10 instead of five steps. As before, it combines the wave height with the wave period to tell you how uncomfortable the sea is, because two metres alone say little about comfort until you know how far apart the waves come. The scale is just finer now: tap the sea to see the value for each hour, and you see whether it is a comfortable 3 or a 4 that is already getting uncomfortable.&lt;&#x2F;p&gt;
+&lt;p&gt;In the passage planner, &lt;strong&gt;Avoid sea state above&lt;&#x2F;strong&gt; keeps your boat out of a rougher sea, at exactly the value that suits your boat and crew, next to the limits for wind and gusts. All three are sliders over the forecast&#x27;s colours, so you see what each value means. The comparison of departures also shows the sky on the way.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;limits.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;limits.webp&quot; alt=&quot;The planner&amp;#x27;s limits as three sliders over the forecast&amp;#x27;s colours: avoid wind above 30 kn, avoid gusts above 45 kn, avoid sea state above 5, moderate&quot; width=&quot;800&quot; height=&quot;300&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Three limits, each a slider over the forecast&amp;#x27;s colours: wind, gusts and now the sea state, here set to 5.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;the-planner-beside-the-map&quot;&gt;The planner beside the map&lt;&#x2F;h2&gt;
+&lt;p&gt;On computers and tablets, the passage planner now opens as a panel at the left of the map, at full height. Fold it away at the grip on its edge, and the map has the whole screen again. The slider along the route sits above the forecast timeline, and the planner opens with your last passage under &lt;strong&gt;Continue with&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;On phones, the planner stays the sheet at the bottom, now with a grip to pull it up.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Night on the route.&lt;&#x2F;strong&gt; The planned route now shows the night: a dark band under the line from sunset to sunrise, with ☾ and ☀ where it gets dark and light. The hourly table shows it too, so you see at once which watches fall in the dark.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Faster, and across the date line.&lt;&#x2F;strong&gt; Routes are ready sooner: the planner now loads wind, currents and the coastline at once instead of one after the other. Passages across the date line, for example in Fiji or Tonga, are calculated and saved offline like any other.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;When the route does not get there.&lt;&#x2F;strong&gt; If the boat cannot arrive at the time you chose, &lt;strong&gt;Compare departures&lt;&#x2F;strong&gt; still works. It says why none arrives and links to the next departures that do.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;anchorages-and-harbours-one-page-per-topic&quot;&gt;Anchorages and harbours, one page per topic&lt;&#x2F;h2&gt;
+&lt;p&gt;Anchorages, mooring fields and harbours now open with a short description of the place and its hazards. Icons on the card lead to a page for each topic: berths, facilities, yard, wind, seabed, tide and ashore, each with its notes next to the data. The overview sums up protection, shelter, seabed and tide in one line each; tap a line to open its page.&lt;&#x2F;p&gt;
+&lt;p&gt;On a computer, the card sits at the right of the map. On phones and tablets, it stays the sheet at the bottom.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;anchorage&#x2F;punta-di-rondinara-b-adbee535da&quot;&gt;Punta di Rondinara&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--phone&quot;&gt;
+  &lt;a class=&quot;figure-link phone-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;berth-rondinara.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1120&amp;#x2F;berth-rondinara.webp&quot; alt=&quot;The card of Punta di Rondinara in Corsica on a phone: tabs for overview, wind, seabed, tide and ashore, the hazards, a short description of the cove, and one line each for shelter from wind and seabed&quot; width=&quot;880&quot; height=&quot;1912&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Punta di Rondinara in Corsica: the hazards and a short description first, then one line per topic, each leading to its own page.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;and-a-few-smaller-things&quot;&gt;And a few smaller things&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;More map.&lt;&#x2F;strong&gt; On tablets and computers, the map now reaches the top of the screen, as on phones. The search bar holds your favorites and the help; your account sits behind the round button at the top right.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Favorites in tabs.&lt;&#x2F;strong&gt; Routes, spots, boat stays, berths, passages and ships each have their own tab. A search counts its matches on every tab.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;A faster point forecast.&lt;&#x2F;strong&gt; Tap the sea, and the card fills faster: it now loads about a fifth of the data, and nothing more for the next tap nearby. That helps most on a slow connection at sea.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Updates in the app.&lt;&#x2F;strong&gt; From their next update on, the iPhone and Android apps tell you when a new version is in the store, and the menu shows it with a red dot until you install it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;try-it&quot;&gt;Try it&lt;&#x2F;h2&gt;
+&lt;p&gt;Everything above is in the web app now. The apps for &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.incusgrid.app&quot;&gt;Android&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;incusgrid&#x2F;id6823732960&quot;&gt;iPhone and iPad&lt;&#x2F;a&gt; get it with their next updates, coming shortly. From then on, the apps also let you know when a new version is in the store.&lt;&#x2F;p&gt;
+&lt;p&gt;One thing we want to say clearly: IncusGrid is made for planning, not for navigation. The tides, the depths and the routes are models, and models can be wrong. Use the official charts and tide tables, look at the water, and trust your own judgement. On board, the decision is always yours.&lt;&#x2F;p&gt;
+&lt;p&gt;Plan your next passage through a tidal gate, then press &lt;strong&gt;Compare departures&lt;&#x2F;strong&gt; and see when the tide is with you. Then tell us how it went. We read every message, and as this post shows, a lot of what you tell us finds its way into the app.&lt;&#x2F;p&gt;
+&lt;p&gt;Plan the season. Sail the day. ⛵️&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;spot&#x2F;47.7000,-3.9800?tab=tide&amp;amp;view=forecast&amp;amp;layer=currents&quot;&gt;Open the map →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>The tide is in: currents, a second model and ships on the map</title>
           <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
