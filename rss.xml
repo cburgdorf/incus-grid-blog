@@ -7,7 +7,113 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://blog.incusgrid.com/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 27 Nov 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Six models, fog on the map and a weather router that feels the waves</title>
+          <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://blog.incusgrid.com/blog/six-models-fog-and-waves/</link>
+          <guid>https://blog.incusgrid.com/blog/six-models-fog-and-waves/</guid>
+          <description xml:base="https://blog.incusgrid.com/blog/six-models-fog-and-waves/">&lt;p&gt;A week ago &lt;a href=&quot;https:&#x2F;&#x2F;blog.incusgrid.com&#x2F;blog&#x2F;tides-three-models-and-a-chart&#x2F;&quot;&gt;the planner learned to sail with the tide&lt;&#x2F;a&gt;. Since then, we have mostly worked on the passages where the water is not flat and the coast is not simple. A route into a head sea now takes as long as it really would, and a passage from the head of a Scottish sea loch finds its way out through the water instead of starting somewhere on the hills. For the forecast, there are three more models to compare, one of them reaching 15 days ahead, and fog now has its own layer on the map.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is everything that is new.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;six-forecast-models&quot;&gt;Six forecast models&lt;&#x2F;h2&gt;
+&lt;p&gt;With the &lt;strong&gt;Model&lt;&#x2F;strong&gt; button you can now choose between six forecast models, four of them worldwide.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AIFS&lt;&#x2F;strong&gt; is the model ECMWF runs on artificial intelligence. It covers the whole world and reaches &lt;strong&gt;15 days ahead&lt;&#x2F;strong&gt;, five days further than ECMWF. That helps when you are watching for a weather window for a long passage. AIFS gives wind and rain; it has no gusts, and waves and thunderstorm risk come from ECMWF.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;ICON&lt;&#x2F;strong&gt; is now there worldwide, not only over Europe: the global model of the German weather service at about 13 km, with its own wind, gusts, rain, thunderstorm risk, sunshine and fog, and waves from its wave model GWAM. It is updated four times a day and reaches about seven days ahead, from the Caribbean to the Pacific.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;HRDPS&lt;&#x2F;strong&gt; from Environment Canada covers Canada, the northeastern US and Bermuda at 2.5 km, fine enough to pick out bays, headlands and narrows such as the Bay of Fundy. It reaches two days ahead; a dashed line on the map marks its area.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Together with ECMWF, GFS and ICON-EU, that makes six. The passage planner calculates with all of them: with ICON as far as it reaches and ECMWF after that, with HRDPS when the whole route lies inside its area. Switch models in the planner and compare the routes. When they agree, you can trust the forecast more; when they don&#x27;t, plan with margin.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;models-fundy.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;models-fundy.webp&quot; alt=&quot;The wind forecast for the Bay of Fundy and Nova Scotia at the same hour, ECMWF on the left and HRDPS on the right: in HRDPS the band of stronger wind up the bay is narrower and follows the coasts more closely&quot; width=&quot;2220&quot; height=&quot;752&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The Bay of Fundy at the same hour in ECMWF (left) and HRDPS (right). At 2.5 km, HRDPS follows the shape of the bay and its coasts much more closely.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;spot&#x2F;43.0000,5.3000?view=forecast&amp;amp;layer=wind&amp;amp;model=aifs&quot;&gt;See AIFS on the map →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fog-on-the-map&quot;&gt;Fog on the map&lt;&#x2F;h2&gt;
+&lt;p&gt;The new &lt;strong&gt;Fog&lt;&#x2F;strong&gt; layer shows where the visibility drops, from dense fog through fog and mist to haze. Tap a point, and the forecast table shows the visibility hour by hour. It comes with GFS, ICON-EU and ICON; ECMWF and AIFS give no visibility, so the map then offers a model that does.&lt;&#x2F;p&gt;
+&lt;p&gt;In the Channel, off Nova Scotia or along the Portuguese coast in summer, fog often decides whether you leave in the morning. Now you can check it the evening before, together with the wind.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;fog-nova-scotia.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;fog-nova-scotia.webp&quot; alt=&quot;The fog layer with ICON over Nova Scotia and the Gulf of Maine: grey patches of fog and mist lie along the south coast of Nova Scotia and out over the sea&quot; width=&quot;1600&quot; height=&quot;833&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Fog off the south coast of Nova Scotia on Friday evening, with the global ICON.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;spot&#x2F;44.2000,-65.5000?view=forecast&amp;amp;layer=fog&amp;amp;model=icon&quot;&gt;See the fog on the map →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;a-forecast-that-flows&quot;&gt;A forecast that flows&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Smooth between the steps.&lt;&#x2F;strong&gt; The map now blends wind, gusts, waves, currents and rain between the model&#x27;s steps. The colours and the moving particles change smoothly as you move through time instead of jumping every few hours.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;By the minute.&lt;&#x2F;strong&gt; On computers, a slider along the top of the timeline moves through the whole forecast without steps. With a planned route it moves the boat along the passage, nights shaded, and the map keeps the boat and its readout in view.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Looking back.&lt;&#x2F;strong&gt; The timeline now reaches back to the start of the model run, up to a day, so you can see what was forecast for this morning or last night.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;waves-slow-your-boat&quot;&gt;Waves slow your boat&lt;&#x2F;h2&gt;
+&lt;p&gt;Until now, the planner sailed through a head sea as if the water were flat. Now it slows the boat in the waves: most when the sea comes from ahead, not at all with the sea astern, and short steep waves more than a long swell. Arrival times into a sea become honest, and &lt;strong&gt;Compare departures&lt;&#x2F;strong&gt; shows which departure keeps the waves behind you.&lt;&#x2F;p&gt;
+&lt;p&gt;How much your boat slows down depends on the boat. A heavy long-keeler shoulders through a chop that stops a light cruiser. Set it under &lt;strong&gt;Waves slow the boat&lt;&#x2F;strong&gt; in the boat&#x27;s settings. The sea state limit just above it now shows its scale of 10 and a wave height it stands for.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;waves-setting.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;waves-setting.webp&quot; alt=&quot;The boat&amp;#x27;s settings in the planner: avoid sea state score above, off; waves slow the boat, 100 %, in 2.5 m head seas −19 %, 6.1 → 5 kn&quot; width=&quot;800&quot; height=&quot;265&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Waves slow the boat, set to 100 %: in 2.5 metres of head sea, this boat drops from 6.1 to 5 knots.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;tell-the-planner-where-not-to-go&quot;&gt;Tell the planner where not to go&lt;&#x2F;h2&gt;
+&lt;p&gt;A closed canal, a strait you would rather avoid, a firing range, a stretch of coast you simply don&#x27;t like: in the passage planner, press and hold (or right-click) on the map, choose &lt;strong&gt;Draw avoided area&lt;&#x2F;strong&gt; and tap its corners. As soon as the area is closed, the planner calculates the route again around it. Tap the area to remove it.&lt;&#x2F;p&gt;
+&lt;p&gt;Avoided areas are saved with the passage and travel with a shared link. Want one for good? Tap it and choose &lt;strong&gt;Save avoided area&lt;&#x2F;strong&gt;: it becomes a favorite, and every route you plan near it avoids it from then on. Not this time? Tap it and ignore it for this route.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;avoid-race.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;avoid-race.webp&quot; alt=&quot;A red hatched avoided area between Cap de la Hague and Alderney; the route from Cherbourg goes north of it, round Alderney and down to Guernsey&quot; width=&quot;1400&quot; height=&quot;1017&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;The Alderney Race drawn as an avoided area: the planner takes the route north of it and round Alderney instead.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;through-narrows-canals-and-out-of-sea-lochs&quot;&gt;Through narrows, canals and out of sea lochs&lt;&#x2F;h2&gt;
+&lt;p&gt;The planner now follows the coastline in much finer detail along the whole route. It keeps clear of headlands and islands, finds its way through narrow channels and archipelagos such as the Stockholm skerries or the Gulf of Morbihan, and goes through canals like St. Peter&#x27;s Canal in Nova Scotia. Where an entrance is too narrow in the land data, it says so instead of stopping without a reason.&lt;&#x2F;p&gt;
+&lt;p&gt;Starting at the head of a long sea loch or up a river, it now finds the way out through the water, even where the open sea is miles away, instead of moving the start across land. And where a causeway closes a passage that looks open in the land data, it goes round, as from the North Ford on North Uist round the north of the island to Lochmaddy.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;morbihan.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;morbihan.webp&quot; alt=&quot;The passage planner beside the map: Crouesty to Vannes, 12 nautical miles in 2 hours; the route winds through the entrance of the Gulf of Morbihan and between its islands up to Vannes&quot; width=&quot;1600&quot; height=&quot;1000&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Crouesty to Vannes: through the narrow entrance of the Gulf of Morbihan and between its islands, 12 miles in two hours.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;passage&#x2F;crouesty-vannes&#x2F;47.5420,-2.8970_47.6400,-2.7580?name=Crouesty%20%E2%86%92%20Vannes&quot;&gt;Try it: Crouesty to Vannes →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;your-boats-your-way-back-your-link&quot;&gt;Your boats, your way back, your link&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Several boats.&lt;&#x2F;strong&gt; Keep your own boat, a charter catamaran and a friend&#x27;s boat, each with its name, polar and all its settings, and switch between them in the planner. &lt;strong&gt;+ New boat&lt;&#x2F;strong&gt; in the boat menu copies the boat you are sailing, ready to adjust.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The way back in one tap.&lt;&#x2F;strong&gt; &lt;strong&gt;Swap start and destination&lt;&#x2F;strong&gt; under the passage&#x27;s points turns it round. Your own waypoints stay, in reverse order, and the planner calculates the way back for the same departure.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Share a passage your way.&lt;&#x2F;strong&gt; When you share a passage, you now choose what the link carries. By default it holds start, destination and departure, so friends get the route calculated for their own boat. Switch on the waypoints to pass on exactly your route, your boat to pass on its polar and settings, or switch off the departure and everyone picks their own. On a phone, the link goes straight to your messages or mail.&lt;&#x2F;p&gt;
+
+&lt;figure class=&quot;figure figure--card&quot;&gt;
+  &lt;a class=&quot;figure-link chart-frame&quot; href=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;share-dialog.webp&quot;&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;week-1127&amp;#x2F;share-dialog.webp&quot; alt=&quot;The Share route dialog for North Ford to Lochmaddy: switches for waypoints (off), my boat (off) and departure (on), a note that the link calculates the route afresh for everyone with their own boat, and a Copy link button&quot; width=&quot;760&quot; height=&quot;1046&quot; loading=&quot;lazy&quot; &#x2F;&gt;
+  &lt;&#x2F;a&gt;
+  
+  &lt;figcaption&gt;Sharing North Ford to Lochmaddy: start, destination and departure by default, so everyone gets the route for their own boat.&lt;&#x2F;figcaption&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;and-a-few-smaller-things&quot;&gt;And a few smaller things&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Favorites on every device.&lt;&#x2F;strong&gt; Save a route on your phone, and it is there on your laptop as soon as you open your favorites or come back to the app, without reloading. Notes, passages and avoided areas follow the same way. Saved the same thing on two devices? Nothing gets lost: the latest version counts and both notes are kept.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Lighter on your data.&lt;&#x2F;strong&gt; IncusGrid now downloads noticeably less. Forecast hours you have already looked at stay ready, so going back in time, switching between wind and waves or returning to where you were is instant. Berths load as you zoom in towards the coast, and in the background the app no longer refreshes ships. Good news on a slow marina Wi-Fi or a phone plan at sea.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;try-it&quot;&gt;Try it&lt;&#x2F;h2&gt;
+&lt;p&gt;Everything above is in the web app now. The apps for &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.incusgrid.app&quot;&gt;Android&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;incusgrid&#x2F;id6823732960&quot;&gt;iPhone and iPad&lt;&#x2F;a&gt; get it with their next updates.&lt;&#x2F;p&gt;
+&lt;p&gt;As always: IncusGrid is made for planning, not for navigation. Forecasts, routes and the land data behind them are models, and models can be wrong. Look at the sky, read the official forecasts, and trust your own judgement. On board, the decision is always yours.&lt;&#x2F;p&gt;
+&lt;p&gt;Plan a passage into the prevailing sea, then compare departures and see which one keeps the waves behind you. And tell us how it went. We read every message, and a lot of what you write finds its way into the app.&lt;&#x2F;p&gt;
+&lt;p&gt;Plan the season. Sail the day. ⛵️&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;app.incusgrid.com&#x2F;spot&#x2F;43.0000,5.3000?view=forecast&amp;amp;layer=wind&amp;amp;model=aifs&quot;&gt;Open the map →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Beyond the weather: tides, depths and the water you sail in</title>
           <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
